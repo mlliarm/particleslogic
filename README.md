@@ -36,19 +36,19 @@ Let's say that you want to find the lifetime of all the particles.
 
 You'll type:
 
-`?- lifetime(X, Y).`
+`?- lifetime(Particle, Lifetime).`
 
 And you'll get (it will stop when the base runs out of particles, or when you press "." or enter instead of ";"):
 
 ```
-X = electron,
-Y = 'Stable' ;
-X = electron_neutrino,
-Y = 'Stable' ;
-X = muon,
-Y = 2.19e-6 ;
-X = muon_neutrino,
-Y = 'Stable'.
+Particle = electron,
+Lifetime = 'Stable' ;
+Particle = electron_neutrino,
+Lifetime = 'Stable' ;
+Particle = muon,
+Lifetime = 2.19e-6 ;
+Particle = muon_neutrino,
+Lifetime = 'Stable'.
 ```
 
 # Bibliography
