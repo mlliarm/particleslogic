@@ -55,6 +55,8 @@ Lifetime = 'Stable'.
 
 Querying and filtering the database:
 
+Let's say that you want to find all the particles with mass greater than 30 Gev/c^2:
+
 `?- mass(Particle, Mass), Mass > 30.`
 
 Then we get:
