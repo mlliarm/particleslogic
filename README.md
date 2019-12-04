@@ -1,9 +1,3 @@
-<script src="//yihui.org/js/math-code.js"></script>
-<!-- Just one possible MathJax CDN below. You may use others. -->
-<script async
-  src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
 # particleslogic
 A prolog application of basic interactions between elementary particles.
 
@@ -83,8 +77,10 @@ Mass = 135.0 ;
 ## Particles included
 
 ### Leptons
-* electron `$e^{-}$`
-* electron_neutrino `$\nu_e$`
+* electron (e-)
+* positron (e+)
+* electron_neutrino (ν_e)
+* anti_electron_neutrino (anti ν_e)
 
 # Bibliography
 * Prolog programming for artificial intelligence, Ivan Bratko, Addison Wesley, Year: 2001, ISBN: 9780201403756, 0201403757
