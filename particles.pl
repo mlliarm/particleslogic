@@ -1,36 +1,35 @@
 mass(electron, 0.511).
-B(electron, 1).
-Le(electron, 1).
-Lmu(electron, 0).
-Ltau(electron, 0).
-S(electron, 0).
+baryon_number(electron, 1).
+l_e(electron, 1).
+l_mu(electron, 0).
+l_tau(electron, 0).
+strangeness(electron, 0).
 charge(electron, -1).
 lifetime(electron, 'Stable').
 
 mass(electron_eutrino, 2.8E-6).
-B(electron_neutrino, 0).
-Le(electron_neutrino, 1).
-Lmu(electron_neutrino, 0).
-Ltau(electron_neutrino, 0).
-S(electron_neutrino, 0).
+baryon_number(electron_neutrino, 0).
+l_e(electron_neutrino, 1).
+l_mu(electron_neutrino, 0).
+l_tau(electron_neutrino, 0).
+strangeness(electron_neutrino, 0).
 charge(electron_neutrino, 0).
 lifetime(electron_neutrino,'Stable').
 
 mass(muon, 105.7).
-B(muon, 0).
-Le(muon, 0).
-Lmu(muon, 1).
-Ltau(muon, 0).
-S(muon, 0).
+baryon_number(muon, 0).
+l_e(muon, 0).
+l_mu(muon, 1).
+l_tau(muon, 0).
+strangeness(muon, 0).
 charge(muon, -1).
 lifetime(muon, 2.19E-6).
 
 mass(muon_neutrino, 3.5E-6).
-B(muon_neutrino, 0).
-Le(muon_neutrino, 0).
-Lmu(muon_neutrino, 1).
-Ltau(muon_neutrino, 0).
-S(muon_neutrino, 0).
+baryon_number(muon_neutrino, 0).
+l_e(muon_neutrino, 0).
+l_mu(muon_neutrino, 1).
+l_tau(muon_neutrino, 0).
+strangeness(muon_neutrino, 0).
 charge(muon_neutrino, 0).
 lifetime(muon_neutrino,'Stable').
-
