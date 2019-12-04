@@ -51,6 +51,35 @@ Particle = muon_neutrino,
 Lifetime = 'Stable'.
 ```
 
+### Third example
+
+Querying and filtering the database:
+
+`?- mass(Particle, Mass), Mass > 30.`
+
+Then we get:
+
+```
+Particle = muon,
+Mass = 105.7 ;
+Particle = anti_muon,
+Mass = 105.7 ;
+Particle = tau,
+Mass = 1784 ;
+Particle = anti_tau,
+Mass = 1784 ;
+Particle = pion,
+Mass = 139.6 ;
+Particle = anti_pion,
+Mass = 139.6 ;
+Particle = pion0,
+Mass = 135.0 ;
+Particle = kaon,
+Mass = 493.7 ;
+Particle = anti_kaon,
+Mass = 493.7.
+```
+
 # Bibliography
 * Prolog programming for artificial intelligence, Ivan Bratko, Addison Wesley, Year: 2001, ISBN: 9780201403756, 0201403757
 * Modern physics, Raymond A. Serway, Clement J. Moses, Curt A. Moyer, Thomson Brooks Cole, Year: 2005, ISBN: 9780534493394,0534493394
