@@ -76,11 +76,76 @@ Mass = 135.0 ;
 
 ## Particles included
 
+Particle name (symbol)
+
 ### Leptons
+
 * electron (e-)
 * positron (e+)
 * electron_neutrino (ν_e)
 * anti_electron_neutrino (anti ν_e)
+* muon (μ-)
+* anti_muon (μ+)
+* muon_neutrino (ν_μ)
+* anti_muon_neutrino (anti ν_μ)
+* tau (τ-)
+* anti_tau (τ+)
+
+### Hadrons
+#### Mesons
+
+* pion (π+)
+* anti_pion (π-)
+* pion0 (π0)
+* kaon (Κ+)
+* anti_kaon (K-)
+* kaon_s0 (K_S^0)
+* anti_kaon_s0 (anti K_S^0)
+* kaon_l0 (K_L^0)
+* anti_kaon_l0 (anti K_L^0)
+* eta (η)
+* eta1 (η')
+
+#### Baryons
+* proton (p)
+* anti_proton (anti p)
+* neutron (n)
+* lambda (Λ^0)
+* anti_lambda (anti Λ^0)
+* sigma (Σ+)
+* anti_sigma (anti Σ-)
+* sigma0 (Σ^0)
+* anti_sigma0 (anti Σ^0)
+* sigma_minus (Σ-)
+* anti_sigma_minus (anti Σ+)
+* delta (Δ++)
+* anti_delta (anti Δ)
+* delta_plus (Δ+)
+* anti_delta_plus (anti Δ-)
+* delta0 (Δ^0)
+* anti_delta0 (anti Δ^0)
+* delta_minus (Δ-)
+* anti_delta_minus (anti Δ+)
+* xi (Ξ^0)
+* anti_xi (anti Ξ^0)
+* xi_minus (Ξ-)
+* anti_xi_minus (anti Ξ+)
+* omega (Ω-)
+* anti_omega (Ω+)
+
+### Quarks
+* up (u)
+* anti_up (anti u)
+* down (d)
+* anti_down (anti d)
+* strange (s)
+* anti_strange (anti s)
+* charmed (c)
+* anti_charmed (anti c)
+* bottom (b)
+* anti_bottom (anti b)
+* top (t)
+* anti_top (anti t)
 
 # Bibliography
 * Prolog programming for artificial intelligence, Ivan Bratko, Addison Wesley, Year: 2001, ISBN: 9780201403756, 0201403757
