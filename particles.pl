@@ -55,7 +55,6 @@ lifetime(tau_neutrino, 'Stable').
 
 %HADRONS
 %Mesons
-
 mass(pion, 139.6).
 baryon_number(pion, 0).
 l_e(pion, 0).
