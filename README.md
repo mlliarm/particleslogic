@@ -83,8 +83,8 @@ Mass = 135.0 ;
 ## Particles included
 
 ### Leptons
-* electron $e^{-}$
-* electron_neutrino $\nu_e$
+* electron `$e^{-}$`
+* electron_neutrino `$\nu_e$`
 
 # Bibliography
 * Prolog programming for artificial intelligence, Ivan Bratko, Addison Wesley, Year: 2001, ISBN: 9780201403756, 0201403757
