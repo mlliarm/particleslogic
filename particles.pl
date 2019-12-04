@@ -50,9 +50,35 @@ l_e(tau_neutrino, 0).
 l_mu(tau_neutrino, 0).
 l_tau(tau_neutrino, 1).
 strangeness(tau_neutrino, 0).
+charge(tau_neutrino, 0).
 lifetime(tau_neutrino, 'Stable').
 
 %HADRONS
 %Mesons
 
+mass(pion, 139.6).
+baryon_number(pion, 0).
+l_e(pion, 0).
+l_mu(pion, 0).
+l_tau(pion, 0).
+strangeness(pion, 0).
+charge(pion, 1).
+lifetime(pion, 2.6E-8).
 
+mass(pion0, 135.0).
+baryon_number(pion0, 0).
+l_e(pion0, 0).
+l_mu(pion0, 0).
+l_tau(pion0, 0).
+strangeness(pion0, 0).
+charge(pion0, 0).
+lifetime(pion0, 0.83E-16).
+
+mass(kaon, 493.7).
+baryon_number(kaon, 0).
+l_e(kaon, 0).
+l_mu(kaon, 0).
+l_tau(kaon, 0).
+strangeness(kaon, 1).
+charge(kaon, 1).
+lifetime(kaon, 1.24E-8).
