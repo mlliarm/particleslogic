@@ -37,7 +37,7 @@ Let's say that you want to find the lifetime of all the particles.
 You'll type:
 
 ```
-- lifetime(X, Y).
+?- lifetime(X, Y).
 X = electron,
 Y = 'Stable' ;
 X = electron_neutrino,
