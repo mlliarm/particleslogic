@@ -36,8 +36,11 @@ Let's say that you want to find the lifetime of all the particles.
 
 You'll type:
 
+`?- lifetime(X, Y).`
+
+And you'll get (it will stop when the base runs out of particles, or when you press "." or enter instead of ";"):
+
 ```
-?- lifetime(X, Y).
 X = electron,
 Y = 'Stable' ;
 X = electron_neutrino,
@@ -52,3 +55,4 @@ Y = 'Stable'.
 * Prolog programming for artificial intelligence, Ivan Bratko, Addison Wesley, Year: 2001, ISBN: 9780201403756, 0201403757
 * Modern physics, Raymond A. Serway, Clement J. Moses, Curt A. Moyer, Thomson Brooks Cole, Year: 2005, ISBN: 9780534493394,0534493394
 * [PROLOG Facts, Rules and Queries](http://www.cs.trincoll.edu/~ram/cpsc352/notes/prolog/factsrules.html)
+* Logical programming and Prolog, greek notes [(rarred pdfs)](http://www.math.upatras.gr/~ragos/main_files/LP.rar), O. Raggos, University of Patras, 2013
