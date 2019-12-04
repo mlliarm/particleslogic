@@ -55,9 +55,9 @@ Lifetime = 'Stable'.
 
 Querying and filtering the database:
 
-Let's say that you want to find all the particles with mass greater than 30 Gev/c^2:
+Let's say that you want to find all the particles with mass greater than 30 GeV/c^2 and less than 200 GeV/c^2:
 
-`?- mass(Particle, Mass), Mass > 30.`
+`?- mass(Particle, Mass), Mass > 30, Mass < 200.`
 
 Then we get:
 
@@ -66,20 +66,12 @@ Particle = muon,
 Mass = 105.7 ;
 Particle = anti_muon,
 Mass = 105.7 ;
-Particle = tau,
-Mass = 1784 ;
-Particle = anti_tau,
-Mass = 1784 ;
 Particle = pion,
 Mass = 139.6 ;
 Particle = anti_pion,
 Mass = 139.6 ;
 Particle = pion0,
 Mass = 135.0 ;
-Particle = kaon,
-Mass = 493.7 ;
-Particle = anti_kaon,
-Mass = 493.7.
 ```
 
 # Bibliography
