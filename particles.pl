@@ -13,7 +13,7 @@ baryon_number(positron, 1).
 l_e(positron, 1).
 l_mu(positron, 0).
 l_tau(positron, 0).
-strangeness(electron, 0).
+strangeness(positron, 0).
 charge(positron, 1).
 lifetime(positron, 'Stable').
 
