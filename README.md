@@ -18,7 +18,7 @@ or
 ## Consulting the knowledge base
 
 ### First example
-Inside from the prolog REPL (gnuprolot or SWI-prolog):
+Inside from the prolog REPL (gprolog or SWI-prolog):
 
 `?- consult('particles.pl').`
 
