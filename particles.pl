@@ -154,59 +154,59 @@ strangeness(anti_kaon, 1).
 charge(anti_kaon, -1).
 lifetime(anti_kaon, 1.24E-8).
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-lifetime().
+mass(kaon_s0, 497.7).
+baryon_number(kaon_s0, 0).
+l_e(kaon_s0, 0).
+l_mu(kaon_s0, 0).
+l_tau(kaon_s0, 0).
+strangeness(kaon_s0, 1).
+charge(kaon_s0, 0).
+lifetime(kaon_s0, 0.89E-10).
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-lifetime().
+mass(anti_kaon_s0, 497.7).
+baryon_number(anti_kaon_s0, 0).
+l_e(anti_kaon0, 0).
+l_mu(anti_kaon0, 0).
+l_tau(anti_kaon0, 0).
+strangeness(anti_kaon0, 1).
+charge(anti_kaon0, 0).
+lifetime(anti_kaon0, 0.89E-10).
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-lifetime().
+mass(kaon_l0, 497.7).
+baryon_number(kaon_l0, 0).
+l_e(kaon_l0, 0).
+l_mu(kaon_l0, 0).
+l_tau(kaon_l0, 0).
+strangeness(kaon_l0, 1).
+charge(kaon_l0, 0).
+lifetime(kaon_l0, 5.2E-8).
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-lifetime().
+mass(anti_kaon_l0, 497.7).
+baryon_number(anti_kaon_l0, 0).
+l_e(anti_kaon_l0, 0).
+l_mu(anti_kaon_l0, 0).
+l_tau(anti_kaon_l0, 0).
+strangeness(anti_kaon_l0, 1).
+charge(anti_kaon_l0, 0).
+lifetime(anti_kaon_l0, 5.2E-8).
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-lifetime().
+mass(eta, 548.8).
+baryon_number(eta, 0).
+l_e(eta, 0).
+l_mu(eta, 0).
+l_tau(eta, 0).
+strangeness(eta, 0).
+charge(eta, 0).
+lifetime(eta, 1E-18).
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-lifetime().
+mass(eta1, 958).
+baryon_number(eta1, 0).
+l_e(eta1, 0).
+l_mu(eta1, 0).
+l_tau(eta1, 0).
+strangeness(eta1, 0).
+charge(eta1, 0).
+lifetime(eta1, 2.2E-21).
 
 %BARYONS
 mass().
