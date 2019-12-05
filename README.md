@@ -165,3 +165,6 @@ Particle name (symbol)
 * [Wikipedia: Fermion](https://en.wikipedia.org/wiki/Fermion)
 * [Wikipedia: Boson](https://en.wikipedia.org/wiki/Boson)
 * [Physics.stackexchange: Can we talk on the conservation of spin?](https://physics.stackexchange.com/questions/325905/can-we-talk-on-the-conservation-of-spin)
+
+# License
+![](https://github.com/mlliarm/particleslogic/blob/master/gplv3-127x51.png)
