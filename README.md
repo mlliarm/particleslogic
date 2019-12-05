@@ -170,4 +170,4 @@ Particle name (symbol)
 * [Physics.stackexchange: Can we talk on the conservation of spin?](https://physics.stackexchange.com/questions/325905/can-we-talk-on-the-conservation-of-spin)
 * [Physicsworld.com: The spin of a proton](https://physicsworld.com/a/the-spin-of-a-proton/)
 # License
-![](https://github.com/mlliarm/particleslogic/blob/master/gplv3-127x51.png)
+![](https://github.com/mlliarm/particleslogic/blob/master/images/gplv3.png)
