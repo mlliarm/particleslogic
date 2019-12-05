@@ -330,6 +330,26 @@ l_tau(anti_sigma_minus, 0).
 strangeness(anti_sigma_minus, -1).
 charge(anti_sigma_minus, 1).
 spin(anti_sigma_minus, 1/2).
+lifetime(anti_sigma_minus, 1.5E-10).
+
+mass(delta, 1230).
+baryon_number(delta, 1).
+l_e(delta, 0).
+l_mu(delta, 0).
+l_tau(delta, 0).
+strangeness(delta, 0).
+charge(delta, 1).
+spin(delta, 1/2).
+lifetime(delta, 6E-24).
+
+mass().
+baryon_number().
+l_e().
+l_mu().
+l_tau().
+strangeness().
+charge().
+spin().
 lifetime().
 
 mass().
@@ -339,6 +359,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
 
 mass().
@@ -348,6 +369,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
 
 mass().
@@ -357,6 +379,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
 
 mass().
@@ -366,6 +389,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
 
 mass().
@@ -375,6 +399,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
 
 mass().
@@ -384,6 +409,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
 
 mass().
@@ -393,6 +419,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
 
 mass().
@@ -402,6 +429,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
 
 mass().
@@ -411,6 +439,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
 
 mass().
@@ -420,6 +449,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
 
 mass().
@@ -429,6 +459,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
 
 mass().
@@ -438,6 +469,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
 
 mass().
@@ -447,6 +479,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
 
 mass().
@@ -456,6 +489,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
 
 mass().
@@ -465,24 +499,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
-lifetime().
-
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-lifetime().
-
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
+spin().
 lifetime().
 
 %QUARKS
@@ -493,6 +510,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
 
 mass().
@@ -502,6 +520,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
 
 mass().
@@ -511,6 +530,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
 
 mass().
@@ -520,6 +540,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
 
 mass().
@@ -529,6 +550,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
 
 mass().
@@ -538,6 +560,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
 
 mass().
@@ -547,6 +570,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
 
 mass().
@@ -556,6 +580,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
 
 mass().
@@ -565,6 +590,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
 
 mass().
@@ -574,6 +600,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
 
 mass().
@@ -583,6 +610,7 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
 
 mass().
@@ -592,4 +620,5 @@ l_mu().
 l_tau().
 strangeness().
 charge().
+spin().
 lifetime().
