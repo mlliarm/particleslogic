@@ -5,6 +5,7 @@
 % Conservation of leptonic numbers 
 % Conservation of baryonic number
 % Conservation of strangeness
+% Conservation of spin
 
 % Some useful rules
 last([X], X).
@@ -46,3 +47,7 @@ last([_|T], X) :- last(T, X).
 
 
 % 7) Conservation of strangeness S
+
+
+
+% 8) Conservation of spin
