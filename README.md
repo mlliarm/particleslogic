@@ -79,7 +79,6 @@ Mass = 135.0 ;
 Particle name (symbol)
 
 ### Leptons
-
 * electron (e-)
 * positron (e+)
 * electron_neutrino (ν_e)
@@ -93,7 +92,6 @@ Particle name (symbol)
 
 ### Hadrons
 #### Mesons
-
 * pion (π+)
 * anti_pion (π-)
 * pion0 (π0)
@@ -146,6 +144,14 @@ Particle name (symbol)
 * anti_bottom (anti b)
 * top (t)
 * anti_top (anti t)
+
+### Bosons
+* higgs (H^0)
+* photon (γ)
+* gluon (g)
+* neutral_weak_boson (Z)
+* w_plus (W+)
+* w_minus (W-)
 
 # Bibliography
 * Prolog programming for artificial intelligence, Ivan Bratko, Addison Wesley, Year: 2001, ISBN: 9780201403756, 0201403757
