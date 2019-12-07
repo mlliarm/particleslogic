@@ -556,7 +556,7 @@ bottomness(strange, 0).
 topness(strange, 0).
 charge(strange, 1/3).
 spin(strange, 1/2).
-lifetime(strange, 'Stable').
+lifetime(strange, 1.24E-8).
 
 mass(anti_strange, 95).
 baryon_number(anti_strange, 1/3).
@@ -569,7 +569,7 @@ bottomness(anti_strange, 0).
 topness(anti_strange, 0).
 charge(anti_strange, -1/3).
 spin(anti_strange, 1/2).
-lifetime(anti_strange, 'Stable').
+lifetime(anti_strange, 1.24E-8).
 
 mass(charm, 1275).
 baryon_number(charm, 1/3).
@@ -582,7 +582,7 @@ bottomness(charm, 0).
 topness(charm, 0).
 charge(charm, 2/3).
 spin(charm, 1/2).
-lifetime(charm, 'Stable').
+lifetime(charm, 1.1E-12).
 
 mass(anti_charm, 1275).
 baryon_number(anti_charm, 1).
@@ -595,7 +595,7 @@ bottomness(anti_charm, 0).
 topness(anti_charm, 0).
 charge(anti_charm, -2/3).
 spin(anti_charm, 1/2).
-lifetime(anti_charm, 'Stable').
+lifetime(anti_charm, 1.1E-12).
 
 mass(top, 173210).
 baryon_number(top, 1/3).
@@ -608,7 +608,7 @@ bottomness(top, 0).
 topness(top, 1).
 charge(top, 2/3).
 spin(top, 1/2).
-lifetime(top, 'Stable').
+lifetime(top, 4.2E-25).
 
 mass(anti_top, 173210).
 baryon_number(anti_top, 1/3).
@@ -621,7 +621,7 @@ bottomness(anti_top, 0).
 topness(anti_top, 1).
 charge(anti_top, -2/3).
 spin(anti_top, 1/2).
-lifetime(anti_top, 'Stable').
+lifetime(anti_top, 4.2E-25).
 
 mass(bottom, 4180).
 baryon_number(bottom, 1/3).
@@ -634,7 +634,7 @@ bottomness(bottom, -1).
 topness(bottom, 0).
 charge(bottom, -1/3).
 spin(bottom, 1/2).
-lifetime(bottom , 'Stable').
+lifetime(bottom , 1.3E-12).
 
 mass(anti_bottom, 4180).
 baryon_number(anti_bottom, 1/3).
@@ -647,7 +647,7 @@ bottomness(anti_bottom, -1).
 topness(anti_bottom, 0).
 charge(anti_bottom, 1/3).
 spin(anti_bottom, 1/2).
-lifetime(anti_bottom, 'Stable').
+lifetime(anti_bottom, 1.3E-12).
 
 %BOSONS
 mass(higgs, 125180).
