@@ -262,6 +262,16 @@ charge(neutron, 0).
 spin(neutron, 1/2)
 lifetime(neutron, 624).
 
+mass(anti_neutron, 939.6).
+baryon_number(anti_neutron, 1).
+l_e(anti_neutron, 0).
+l_mu(anti_neutron, 0).
+l_tau(anti_neutron, 0).
+strangeness(anti_neutron, 0).
+charge(anti_neutron, 0).
+spin(anti_neutron, 1/2)
+lifetime(anti_neutron, 624).
+
 mass(lambda, 1115.6).
 baryon_number(lambda, 1).
 l_e(lambda, 0).
@@ -271,6 +281,16 @@ strangeness(lambda, -1).
 charge(lambda, 0).
 spin(lambda, 1/2)
 lifetime(lambda, 2.6E-10).
+
+mass(anti_lambda, 1115.6).
+baryon_number(anti_lambda, 1).
+l_e(anti_lambda, 0).
+l_mu(anti_lambda, 0).
+l_tau(anti_lambda, 0).
+strangeness(anti_lambda, -1).
+charge(anti_lambda, 0).
+spin(anti_lambda, 1/2)
+lifetime(anti_lambda, 2.6E-10).
 
 mass(sigma, 1189.4).
 baryon_number(sigma, 1).
@@ -472,127 +492,164 @@ charge(anti_omega, 1).
 spin(anti_omega, 1/2).
 lifetime(anti_omega, 0.82E-10).
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
-
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
-
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
-
 %QUARKS
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
+mass(up, 2.3).
+baryon_number(up, 1/3).
+l_e(up, 0).
+l_mu(up, 0).
+l_tau(up, 0).
+strangeness(up, 0).
+charm(up, 0).
+bottomness(up, 0).
+topness(up, 0).
+charge(up, 2/3).
+spin(up, 1/2).
+lifetime(up, 'Stable').
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
+mass(anti_up, 2.3).
+baryon_number(anti_up, 1/3).
+l_e(anti_up, 0).
+l_mu(anti_up, 0).
+l_tau(anti_up, 0).
+strangeness(anti_up, 0).
+charm(anti_up, 0).
+bottomness(anti_up, 0).
+topness(anti_up, 0).
+charge(anti_up, -2/3).
+spin(anti_up, 1/2).
+lifetime(anti_up, 'Stable').
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
+mass(down, 4.8).
+baryon_number(down, 1/3).
+l_e(down, 0).
+l_mu(down, 0).
+l_tau(down, 0).
+strangeness(down, 0).
+charm(down, 0).
+bottomness(down, 0)
+topness(down, 0).
+charge(down, -1/3).
+spin(down, 1/2).
+lifetime(down, 'Stable').
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
+mass(anti_down, 4.8).
+baryon_number(anti_down, 1/3).
+l_e(anti_down, 0).
+l_mu(anti_down, 0).
+l_tau(anti_down, 0).
+strangeness(anti_down, 0).
+charm(anti_down, 0).
+bottomness(anti_down, 0).
+topness(anti_down, 0).
+charge(anti_down, 1/3).
+spin(anti_down, 1/2).
+lifetime(anti_down, 'Stable').
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
+mass(strange, 95).
+baryon_number(strange, 1/3).
+l_e(strange, 0).
+l_mu(strange, 0).
+l_tau(strange, 0).
+strangeness(strange, -1).
+charm(strange, 0).
+bottomness(strange, 0).
+topness(strange, 0).
+charge(strange, 1/3).
+spin(strange, 1/2).
+lifetime(strange, 'Stable').
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
+mass(anti_strange, 95).
+baryon_number(anti_strange, 1/3).
+l_e(anti_strange, 0).
+l_mu(anti_strange, 0).
+l_tau(anti_strange, 0).
+strangeness(anti_strange, -1).
+charm(anti_strange, 0).
+bottomness(anti_strange, 0).
+topness(anti_strange, 0).
+charge(anti_strange, -1/3).
+spin(anti_strange, 1/2).
+lifetime(anti_strange, 'Stable').
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
+mass(charm, 1275).
+baryon_number(charm, 1/3).
+l_e(charm, 0).
+l_mu(charm, 0).
+l_tau(charm, 0).
+strangeness(charm, 0).
+charm(charm, 1).
+bottomness(charm, 0).
+topness(charm, 0).
+charge(charm, 2/3).
+spin(charm, 1/2).
+lifetime(charm, 'Stable').
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
+mass(anti_charm, 1275).
+baryon_number(anti_charm, 1).
+l_e(anti_charm, 0).
+l_mu(anti_charm, 0).
+l_tau(anti_charm, 0).
+strangeness(anti_charm, 0).
+charm(anti_charm, 1).
+bottomness(anti_charm, 0).
+topness(anti_charm, 0).
+charge(anti_charm, -2/3).
+spin(anti_charm, 1/2).
+lifetime(anti_charm, 'Stable').
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
+mass(top, 173210).
+baryon_number(top, 1/3).
+l_e(top, 0).
+l_mu(top, 0).
+l_tau(top, 0).
+strangeness(top, 0).
+charm(top, 0).
+bottomness(top, 0).
+topness(top, 1).
+charge(top, 2/3).
+spin(top, 1/2).
+lifetime(top, 'Stable').
 
+mass(anti_top, 173210).
+baryon_number(anti_top, 1/3).
+l_e(anti_top, 0).
+l_mu(anti_top, 0).
+l_tau(anti_top, 0).
+strangeness(anti_top, 0).
+charm(anti_top, 0).
+bottomness(anti_top, 0).
+topness(anti_top, 1).
+charge(anti_top, -2/3).
+spin(anti_top, 1/2).
+lifetime(anti_top, 'Stable').
+
+mass(bottom, 4180).
+baryon_number(bottom, 1/3).
+l_e(bottom, 0).
+l_mu(bottom, 0).
+l_tau(bottom, 0).
+strangeness(bottom, 0).
+charm(bottom, 0).
+bottomness(bottom, -1).
+topness(bottom, 0).
+charge(bottom, -1/3).
+spin(bottom, 1/2).
+lifetime(bottom , 'Stable').
+
+mass(anti_bottom, 4180).
+baryon_number(anti_bottom, 1/3).
+l_e(anti_bottom, 0).
+l_mu(anti_bottom, 0).
+l_tau(anti_bottom, 0).
+strangeness(anti_bottom, 0).
+charm(anti_bottom, 0).
+bottomness(anti_bottom, -1).
+topness(anti_bottom, 0).
+charge(anti_bottom, 1/3).
+spin(anti_bottom, 1/2).
+lifetime(anti_bottom, 'Stable').
+
+%BOSONS
 mass().
 baryon_number().
 l_e().
