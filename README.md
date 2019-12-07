@@ -63,7 +63,7 @@ Lifetime = 3.3e-13 .
 
 Querying and filtering the database:
 
-Let's say that you want to find all the particles with mass greater than 30 GeV/c^2 and less than 200 GeV/c^2:
+Let's say that you want to find all the particles with mass greater than 30 MeV/c^2 and less than 200 MeV/c^2:
 
 `?- mass(Particle, Mass), Mass > 30, Mass < 200.`
 
@@ -80,6 +80,11 @@ Particle = anti_pion,
 Mass = 139.6 ;
 Particle = pion0,
 Mass = 135.0 ;
+Particle = strange,
+Mass = 95 ;
+Particle = anti_strange,
+Mass = 95 ;
+false.
 ```
 
 ## Particles included
