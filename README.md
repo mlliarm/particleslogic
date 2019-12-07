@@ -149,9 +149,9 @@ Particle name (symbol)
 * higgs (H^0)
 * photon (γ)
 * gluon (g)
-* neutral_weak_boson (Z)
-* w_plus (W+)
-* w_minus (W-)
+* z0_boson (Z^0)
+* w_plus_boson (W+)
+* w_minus_boson (W-)
 
 # Bibliography
 * Prolog programming for artificial intelligence, Ivan Bratko, Addison Wesley, Year: 2001, ISBN: 9780201403756, 0201403757
@@ -170,6 +170,9 @@ Particle name (symbol)
 * [Wikipedia: Quarks#Mass](https://en.wikipedia.org/wiki/Quark#Mass)
 * [Physics.stackexchange: Can we talk on the conservation of spin?](https://physics.stackexchange.com/questions/325905/can-we-talk-on-the-conservation-of-spin)
 * [Physicsworld.com: The spin of a proton](https://physicsworld.com/a/the-spin-of-a-proton/)
+* [Particle zoo: the W boson](https://images-of-elements.com/particle-zoo/w-boson.php)
+* [Particle zoo: the Z0 boson](https://images-of-elements.com/particle-zoo/z-boson.php)
+* [Particle zoo: the gluon](https://images-of-elements.com/particle-zoo/gluon.php)
 * [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 # Contributing
