@@ -342,135 +342,135 @@ charge(delta, 1).
 spin(delta, 1/2).
 lifetime(delta, 6E-24).
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
+mass(anti_delta, 1230).
+baryon_number(anti_delta, 1).
+l_e(anti_delta, 0).
+l_mu(anti_delta, 0).
+l_tau(anti_delta, 0).
+strangeness(anti_delta, 0).
+charge(anti_delta, -1).
+spin(anti_delta, 1/2).
+lifetime(anti_delta, 6E-24).
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
+mass(delta_plus, 1231).
+baryon_number(delta_plus, 1).
+l_e(delta_plus, 0).
+l_mu(delta_plus, 0).
+l_tau(delta_plus, 0).
+strangeness(delta_plus, 0).
+charge(delta_plus, 1).
+spin(delta_plus, 1/2).
+lifetime(delta_plus, 6E-24).
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
+mass(anti_delta_plus, 1231).
+baryon_number(anti_delta_plus, 1).
+l_e(anti_delta_plus, 0).
+l_mu(anti_delta_plus, 0).
+l_tau(anti_delta_plus, 0).
+strangeness(anti_delta_plus, 0).
+charge(anti_delta_plus, -1).
+spin(anti_delta_plus, 1/2).
+lifetime(anti_delta_plus, 6E-24).
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
+mass(delta0, 1232).
+baryon_number(delta0, 1).
+l_e(delta0, 0).
+l_mu(delta0, 0).
+l_tau(delta0, 0).
+strangeness(delta0, 0).
+charge(delta0, 0).
+spin(delta0, 1/2).
+lifetime(delta0, 6E-24).
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
+mass(anti_delta0, 1232).
+baryon_number(anti_delta0, 1).
+l_e(anti_delta0, 0).
+l_mu(anti_delta0, 0).
+l_tau(anti_delta0, 0).
+strangeness(anti_delta0, 0).
+charge(anti_delta0, 0).
+spin(anti_delta0, 1/2).
+lifetime(anti_delta0, 6E-24).
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
+mass(delta_minus, 1234).
+baryon_number(delta_minus, 1).
+l_e(delta_minus, 0).
+l_mu(delta_minus, 0).
+l_tau(delta_minus, 0).
+strangeness(delta_minus, 0).
+charge(delta_minus, -1).
+spin(delta_minus, 1/2).
+lifetime(delta_minus, 6E-24).
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
+mass(anti_delta_minus, 1234).
+baryon_number(anti_delta_minus, 1).
+l_e(anti_delta_minus, 0).
+l_mu(anti_delta_minus, 0).
+l_tau(anti_delta_minus, 0).
+strangeness(anti_delta_minus, 0).
+charge(anti_delta_minus, 1).
+spin(anti_delta_minus, 1/2).
+lifetime(anti_delta_minus, 6E-24).
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
+mass(xi0, 1315).
+baryon_number(xi0, 1).
+l_e(xi0, 0).
+l_mu(xi0, 0).
+l_tau(xi0, 0).
+strangeness(xi0, -2).
+charge(xi0, 0).
+spin(xi0, 1/2).
+lifetime(xi0, 2.9E-10).
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
+mass(anti_xi0, 1315).
+baryon_number(anti_xi0, 1).
+l_e(anti_xi0, 0).
+l_mu(anti_xi0, 0).
+l_tau(anti_xi0, 0).
+strangeness(anti_xi0, -2).
+charge(anti_xi0, 0).
+spin(anti_xi0, 1/2).
+lifetime(anti_xi0, 2.9E-10).
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
+mass(xi_minus, 1321).
+baryon_number(xi_minus, 1).
+l_e(xi_minus, 0).
+l_mu(xi_minus, 0).
+l_tau(xi_minus, 0).
+strangeness(xi_minus, -2).
+charge(xi_minus, -1).
+spin(xi_minus, 1/2).
+lifetime(xi_minus, 1.64E-10).
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
+mass(anti_xi_minus, 1321).
+baryon_number(anti_xi_minus, 1).
+l_e(anti_xi_minus, 0).
+l_mu(anti_xi_minus, 0).
+l_tau(anti_xi_minus, 0).
+strangeness(anti_xi_minus, -2).
+charge(anti_xi_minus, 1).
+spin(anti_xi_minus, 1/2).
+lifetime(anti_xi_minus, 1.64E-10).
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
+mass(omega, 1672).
+baryon_number(omega, 1).
+l_e(omega, 0).
+l_mu(omega, 0).
+l_tau(omega, 0).
+strangeness(omega, -3).
+charge(omega, -1).
+spin(omega, 1/2).
+lifetime(omega, 0.82E-10).
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
+mass(anti_omega, 1672).
+baryon_number(anti_omega, 1).
+l_e(anti_omega, 0).
+l_mu(anti_omega, 0).
+l_tau(anti_omega, 0).
+strangeness(anti_omega, -3).
+charge(anti_omega, 1).
+spin(anti_omega, 1/2).
+lifetime(anti_omega, 0.82E-10).
 
 mass().
 baryon_number().
