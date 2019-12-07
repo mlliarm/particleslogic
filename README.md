@@ -173,6 +173,10 @@ Particle name (symbol)
 * [Particle zoo: the W boson](https://images-of-elements.com/particle-zoo/w-boson.php)
 * [Particle zoo: the Z0 boson](https://images-of-elements.com/particle-zoo/z-boson.php)
 * [Particle zoo: the gluon](https://images-of-elements.com/particle-zoo/gluon.php)
+* [Particle zoo: the strange quark](https://images-of-elements.com/particle-zoo/strange-quark.php#a)
+* [Particle zoo: the charm quark](https://images-of-elements.com/particle-zoo/charm-quark.php#a)
+* [Particle zoo: the bottom quark](https://images-of-elements.com/particle-zoo/bottom-quark.php#a)
+* [Particle zoo: the top quark](https://images-of-elements.com/particle-zoo/top-quark.php#a)
 * [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 # Contributing
