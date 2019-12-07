@@ -650,32 +650,42 @@ spin(anti_bottom, 1/2).
 lifetime(anti_bottom, 'Stable').
 
 %BOSONS
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
+mass(higgs, 125180).
+charge(higgs, 0).
+colour_charge(higgs, 0)
+spin(higgs, 0).
+lifetime(higgs, 1.56E-22).
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
+mass(photon, 0).
+charge(photon, 0).
+colour_charge(photon, 0)
+spin(photon, 1).
+lifetime(photon, 'Stable').
 
-mass().
-baryon_number().
-l_e().
-l_mu().
-l_tau().
-strangeness().
-charge().
-spin().
-lifetime().
+mass(gluon, 0).
+charge(gluon, 0).
+colour_charge(gluon, 0)
+spin(gluon, 1).
+lifetime(gluon, 'Stable').
+
+mass(z0_boson, 91188).
+charge(z0_boson, 0).
+colour_charge(z0_boson, 0)
+spin(z0_boson, 1).
+lifetime(z0_boson, 3E-25).
+
+mass(w_plus_boson, 80379).
+charge(w_plus_boson, 1).
+colour_charge(w_plus_boson, 0)
+spin(w_plus_boson, 1).
+lifetime(w_plus_boson, 3E-25).
+
+mass(w_minus_boson, 80379).
+charge(w_minus_boson, -1).
+colour_charge(w_minus_boson, 0)
+spin(w_minus_boson, 1).
+lifetime(w_minus_boson, 3E-25).
+
+
+
+
