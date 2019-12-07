@@ -43,12 +43,20 @@ And you'll get (it will stop when the base runs out of particles, or when you pr
 ```
 Particle = electron,
 Lifetime = 'Stable' ;
+Particle = positron,
+Lifetime = 'Stable' ;
 Particle = electron_neutrino,
+Lifetime = 'Stable' ;
+Particle = anti_electron_neutrino,
 Lifetime = 'Stable' ;
 Particle = muon,
 Lifetime = 2.19e-6 ;
+Particle = anti_muon,
+Lifetime = 2.19e-6 ;
 Particle = muon_neutrino,
-Lifetime = 'Stable'.
+Lifetime = 'Stable' ;
+Particle = tau,
+Lifetime = 3.3e-13 .
 ```
 
 ### Third example
