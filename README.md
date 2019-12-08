@@ -158,7 +158,7 @@ Particle name (symbol)
 * top (t)
 * anti_top (anti t)
 
-### Bosons
+### Gauge Bosons
 * higgs (H^0)
 * photon (γ)
 * gluon (g)
