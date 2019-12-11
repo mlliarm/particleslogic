@@ -18,7 +18,7 @@ or
 ## Consulting the knowledge base
 
 ### First example
-Get inside the particleslogic folder from a terminal and start a Prolog REPL running.
+Go inside the particleslogic folder from a terminal and get a Prolog REPL running.
 
 From inside the prolog REPL (`gprolog` or `swipl`):
 
