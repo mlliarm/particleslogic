@@ -20,7 +20,7 @@ or
 ### First example
 Get inside the particleslogic folder from a terminal and start a Prolog REPL running.
 
-From inside the prolog REPL (gprolog or SWI-prolog):
+From inside the prolog REPL (`gprolog` or `swipl`):
 
 `?- consult('src/particles.pl').`
 
