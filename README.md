@@ -18,17 +18,19 @@ or
 ## Consulting the knowledge base
 
 ### First example
-Inside from the prolog REPL (gprolog or SWI-prolog):
+Get inside the particleslogic folder from a terminal and start a Prolog REPL running.
 
-`?- consult('particles.pl').`
+From inside the prolog REPL (gprolog or SWI-prolog):
+
+`?- consult('src/particles.pl').`
 
 Now, let's say that you want to find out the mass of the electron. You'll type:
 
-`?- mass(electron, X).`
+`?- mass(electron, M).`
 
 And you'll get:
 
-`X = 0.511.`
+`M = 0.511.`
 
 ### Second example
 
