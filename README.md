@@ -1,6 +1,15 @@
 # particleslogic
 A prolog application of basic interactions between elementary particles.
 
+# Purpose
+
+The main idea behind this project is to create a system that will tell you when an interaction (reaction)
+of the form A + B --> C + D + E + ... where A, B, C, D, E, ... are elementary particles, is possible or not.
+
+For the time being, the library is at a very basic stage where you can only consult the knowledge base, and do basic simple (or filtered) queries.
+
+For future ideas and goals check the [CONTRIBUTING](https://github.com/mlliarm/particleslogic/blob/master/CONTRIBUTING.md) page.
+
 # Prerequisites
 
 You're expected to have GnuProlog or SWI-Prolog installed.
