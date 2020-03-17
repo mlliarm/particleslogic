@@ -713,42 +713,42 @@ fermion(anti_bottom).
 %GAUGE_BOSONS
 mass(higgs, 125180).
 charge(higgs, 0).
-colour_charge(higgs, 0)
+colour_charge(higgs, 0).
 spin(higgs, 0).
 lifetime(higgs, 1.56E-22).
 boson(higgs).
 
 mass(photon, 0).
 charge(photon, 0).
-colour_charge(photon, 0)
+colour_charge(photon, 0).
 spin(photon, 1).
 lifetime(photon, 'Stable').
 boson(photon).
 
 mass(gluon, 0).
 charge(gluon, 0).
-colour_charge(gluon, 0)
+colour_charge(gluon, 0).
 spin(gluon, 1).
 lifetime(gluon, 'Stable').
 boson(gluon).
 
 mass(z0_boson, 91188).
 charge(z0_boson, 0).
-colour_charge(z0_boson, 0)
+colour_charge(z0_boson, 0).
 spin(z0_boson, 1).
 lifetime(z0_boson, 3E-25).
 boson(z0_boson).
 
 mass(w_plus_boson, 80379).
 charge(w_plus_boson, 1).
-colour_charge(w_plus_boson, 0)
+colour_charge(w_plus_boson, 0).
 spin(w_plus_boson, 1).
 lifetime(w_plus_boson, 3E-25).
 boson(w_plus_boson).
 
 mass(w_minus_boson, 80379).
 charge(w_minus_boson, -1).
-colour_charge(w_minus_boson, 0)
+colour_charge(w_minus_boson, 0).
 spin(w_minus_boson, 1).
 lifetime(w_minus_boson, 3E-25).
 boson(w_minus_boson).
