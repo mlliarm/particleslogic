@@ -7,11 +7,11 @@ You're expected to have GnuProlog or SWI-Prolog installed.
 
 On Ubuntu:
 
-`sudo apt-get install gprolog` 
+`sudo apt install gprolog` 
 
 or
 
-`sudo apt-get install swi-prolog`
+`sudo apt install swi-prolog`
 
 # How to use the library
 
