@@ -259,7 +259,7 @@ l_tau(eta, 0).
 strangeness(eta, 0).
 charge(eta, 0).
 spin(eta, 0).
-lifetime(eta, 1E-18).
+lifetime(eta, 1.0E-18).
 fermion(eta).
 
 mass(eta1, 958).
@@ -370,7 +370,7 @@ l_tau(sigma0, 0).
 strangeness(sigma0, -1).
 charge(sigma0, 0).
 spin(anti_sigma, 1/2).
-lifetime(sigma0, 6E-20).
+lifetime(sigma0, 6.0E-20).
 fermion(sigma0).
 
 mass(anti_sigma0, 1192.5).
@@ -381,7 +381,7 @@ l_tau(anti_sigma0, 0).
 strangeness(anti_sigma0, -1).
 charge(anti_sigma0, 0).
 spin(anti_sigma0, 1/2).
-lifetime(anti_sigma0, 6E-20).
+lifetime(anti_sigma0, 6.0E-20).
 fermion(anti_sigma0).
 
 mass(sigma_minus, 1197.3).
@@ -414,7 +414,7 @@ l_tau(delta, 0).
 strangeness(delta, 0).
 charge(delta, 1).
 spin(delta, 1/2).
-lifetime(delta, 6E-24).
+lifetime(delta, 6.0E-24).
 fermion(delta).
 
 mass(anti_delta, 1230).
@@ -425,7 +425,7 @@ l_tau(anti_delta, 0).
 strangeness(anti_delta, 0).
 charge(anti_delta, -1).
 spin(anti_delta, 1/2).
-lifetime(anti_delta, 6E-24).
+lifetime(anti_delta, 6.0E-24).
 fermion(anti_delta).
 
 mass(delta_plus, 1231).
@@ -436,7 +436,7 @@ l_tau(delta_plus, 0).
 strangeness(delta_plus, 0).
 charge(delta_plus, 1).
 spin(delta_plus, 1/2).
-lifetime(delta_plus, 6E-24).
+lifetime(delta_plus, 6.0E-24).
 fermion(delta_plus).
 
 mass(anti_delta_plus, 1231).
@@ -447,7 +447,7 @@ l_tau(anti_delta_plus, 0).
 strangeness(anti_delta_plus, 0).
 charge(anti_delta_plus, -1).
 spin(anti_delta_plus, 1/2).
-lifetime(anti_delta_plus, 6E-24).
+lifetime(anti_delta_plus, 6.0E-24).
 fermion(anti_delta_plus).
 
 mass(delta0, 1232).
@@ -458,7 +458,7 @@ l_tau(delta0, 0).
 strangeness(delta0, 0).
 charge(delta0, 0).
 spin(delta0, 1/2).
-lifetime(delta0, 6E-24).
+lifetime(delta0, 6.0E-24).
 fermion(delta0).
 
 mass(anti_delta0, 1232).
@@ -469,7 +469,7 @@ l_tau(anti_delta0, 0).
 strangeness(anti_delta0, 0).
 charge(anti_delta0, 0).
 spin(anti_delta0, 1/2).
-lifetime(anti_delta0, 6E-24).
+lifetime(anti_delta0, 6.0E-24).
 fermion(anti_delta0).
 
 mass(delta_minus, 1234).
@@ -480,7 +480,7 @@ l_tau(delta_minus, 0).
 strangeness(delta_minus, 0).
 charge(delta_minus, -1).
 spin(delta_minus, 1/2).
-lifetime(delta_minus, 6E-24).
+lifetime(delta_minus, 6.0E-24).
 fermion(delta_minus).
 
 mass(anti_delta_minus, 1234).
@@ -491,7 +491,7 @@ l_tau(anti_delta_minus, 0).
 strangeness(anti_delta_minus, 0).
 charge(anti_delta_minus, 1).
 spin(anti_delta_minus, 1/2).
-lifetime(anti_delta_minus, 6E-24).
+lifetime(anti_delta_minus, 6.0E-24).
 fermion(anti_delta_minus).
 
 mass(xi0, 1315).
@@ -755,21 +755,21 @@ mass(z0_boson, 91188).
 charge(z0_boson, 0).
 colour_charge(z0_boson, 0).
 spin(z0_boson, 1).
-lifetime(z0_boson, 3E-25).
+lifetime(z0_boson, 3.0E-25).
 boson(z0_boson).
 
 mass(w_plus_boson, 80379).
 charge(w_plus_boson, 1).
 colour_charge(w_plus_boson, 0).
 spin(w_plus_boson, 1).
-lifetime(w_plus_boson, 3E-25).
+lifetime(w_plus_boson, 3.0E-25).
 boson(w_plus_boson).
 
 mass(w_minus_boson, 80379).
 charge(w_minus_boson, -1).
 colour_charge(w_minus_boson, 0).
 spin(w_minus_boson, 1).
-lifetime(w_minus_boson, 3E-25).
+lifetime(w_minus_boson, 3.0E-25).
 boson(w_minus_boson).
 
 
