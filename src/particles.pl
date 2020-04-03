@@ -102,7 +102,7 @@ l_mu(anti_muon_neutrino, 1).
 l_tau(anti_muon_neutrino, 0).
 strangeness(anti_muon_neutrino, 0).
 charge(anti_muon_neutrino, 0).
-spin(anti_muon_neutrino, 1/2)
+spin(anti_muon_neutrino, 1/2).
 lifetime(anti_muon_neutrino,'Stable').
 fermion(anti_muon_neutrino).
 
@@ -303,7 +303,7 @@ l_mu(neutron, 0).
 l_tau(neutron, 0).
 strangeness(neutron, 0).
 charge(neutron, 0).
-spin(neutron, 1/2)
+spin(neutron, 1/2).
 lifetime(neutron, 624).
 fermion(neutron).
 
@@ -314,7 +314,7 @@ l_mu(anti_neutron, 0).
 l_tau(anti_neutron, 0).
 strangeness(anti_neutron, 0).
 charge(anti_neutron, 0).
-spin(anti_neutron, 1/2)
+spin(anti_neutron, 1/2).
 lifetime(anti_neutron, 624).
 fermion(anti_neutron).
 
@@ -325,7 +325,7 @@ l_mu(lambda, 0).
 l_tau(lambda, 0).
 strangeness(lambda, -1).
 charge(lambda, 0).
-spin(lambda, 1/2)
+spin(lambda, 1/2).
 lifetime(lambda, 2.6E-10).
 fermion(lambda).
 
@@ -336,7 +336,7 @@ l_mu(anti_lambda, 0).
 l_tau(anti_lambda, 0).
 strangeness(anti_lambda, -1).
 charge(anti_lambda, 0).
-spin(anti_lambda, 1/2)
+spin(anti_lambda, 1/2).
 lifetime(anti_lambda, 2.6E-10).
 fermion(anti_lambda).
 
@@ -596,7 +596,7 @@ l_mu(down, 0).
 l_tau(down, 0).
 strangeness(down, 0).
 charm(down, 0).
-bottomness(down, 0)
+bottomness(down, 0).
 topness(down, 0).
 charge(down, -1/3).
 spin(down, 1/2).
