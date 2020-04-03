@@ -1,3 +1,22 @@
+%Defining discontiguous predicates
+:- discontiguous mass/2.
+:- discontiguous baryon_number/2.
+:- discontiguous l_e/2.
+:- discontiguous l_mu/2.
+:- discontiguous l_tau/2.
+:- discontiguous strangeness/2.
+:- discontiguous charge/2.
+:- discontiguous spin/2.
+:- discontiguous lifetime/2.
+:- discontiguous fermion/1.
+:- discontiguous charm/2.
+:- discontiguous botomness/2.
+:- discontiguous strangeness/2.
+:- discontiguous bottomness/2.
+:- discontiguous topness/2.
+:- discontiguous colour_charge/2.
+:- discontiguous boson/1.
+
 %LEPTONS
 mass(electron, 0.511).
 baryon_number(electron, 1).
