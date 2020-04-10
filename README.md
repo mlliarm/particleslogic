@@ -170,12 +170,14 @@ Particle name (symbol)
 * anti_top (anti t)
 
 ### Gauge Bosons
-* higgs (H^0)
 * photon (γ)
 * gluon (g)
 * z0_boson (Z^0)
 * w_plus_boson (W+)
 * w_minus_boson (W-)
+
+### Other
+* higgs (H^0)
 
 # Bibliography
 * Prolog programming for artificial intelligence, Ivan Bratko, Addison Wesley, Year: 2001, ISBN: 9780201403756, 0201403757
