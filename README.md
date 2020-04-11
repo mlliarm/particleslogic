@@ -204,6 +204,8 @@ Particle name (symbol)
 * [Particle zoo: the charm quark](https://images-of-elements.com/particle-zoo/charm-quark.php#a)
 * [Particle zoo: the bottom quark](https://images-of-elements.com/particle-zoo/bottom-quark.php#a)
 * [Particle zoo: the top quark](https://images-of-elements.com/particle-zoo/top-quark.php#a)
+* [HyperPhysics: Particle Interactions and Conservation Laws](http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/parint.html)
+* [Physics LibreTexts: Particle Conservation Laws](https://phys.libretexts.org/Bookshelves/University_Physics/Book%3A_University_Physics_(OpenStax)/Map%3A_University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/11%3A_Particle_Physics_and_Cosmology/11.03%3A_Particle_Conservation_Laws)
 * [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 # Contributing
