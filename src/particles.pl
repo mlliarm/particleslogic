@@ -307,7 +307,7 @@ lifetime(neutron, 624).
 fermion(neutron).
 
 mass(anti_neutron, 939.6).
-baryon_number(anti_neutron, 1).
+baryon_number(anti_neutron, -1).
 l_e(anti_neutron, 0).
 l_mu(anti_neutron, 0).
 l_tau(anti_neutron, 0).
@@ -329,7 +329,7 @@ lifetime(lambda, 2.6E-10).
 fermion(lambda).
 
 mass(anti_lambda, 1115.6).
-baryon_number(anti_lambda, 1).
+baryon_number(anti_lambda, -1).
 l_e(anti_lambda, 0).
 l_mu(anti_lambda, 0).
 l_tau(anti_lambda, 0).
@@ -351,7 +351,7 @@ lifetime(sigma, 0.8E-10).
 fermion(sigma).
 
 mass(anti_sigma, 1189.4).
-baryon_number(anti_sigma, 1).
+baryon_number(anti_sigma, -1).
 l_e(anti_sigma, 0).
 l_mu(anti_sigma, 0).
 l_tau(anti_sigma, 0).
@@ -373,7 +373,7 @@ lifetime(sigma0, 6.0E-20).
 fermion(sigma0).
 
 mass(anti_sigma0, 1192.5).
-baryon_number(anti_sigma0, 1).
+baryon_number(anti_sigma0, -1).
 l_e(anti_sigma0, 0).
 l_mu(anti_sigma0, 0).
 l_tau(anti_sigma0, 0).
@@ -395,7 +395,7 @@ lifetime(sigma_minus, 1.5E-10).
 fermion(sigma_minus).
 
 mass(anti_sigma_minus, 1197.3).
-baryon_number(anti_sigma_minus, 1).
+baryon_number(anti_sigma_minus, -1).
 l_e(anti_sigma_minus, 0).
 l_mu(anti_sigma_minus, 0).
 l_tau(anti_sigma_minus, 0).
@@ -417,7 +417,7 @@ lifetime(delta, 6.0E-24).
 fermion(delta).
 
 mass(anti_delta, 1230).
-baryon_number(anti_delta, 1).
+baryon_number(anti_delta, -1).
 l_e(anti_delta, 0).
 l_mu(anti_delta, 0).
 l_tau(anti_delta, 0).
@@ -439,7 +439,7 @@ lifetime(delta_plus, 6.0E-24).
 fermion(delta_plus).
 
 mass(anti_delta_plus, 1231).
-baryon_number(anti_delta_plus, 1).
+baryon_number(anti_delta_plus, -1).
 l_e(anti_delta_plus, 0).
 l_mu(anti_delta_plus, 0).
 l_tau(anti_delta_plus, 0).
@@ -461,7 +461,7 @@ lifetime(delta0, 6.0E-24).
 fermion(delta0).
 
 mass(anti_delta0, 1232).
-baryon_number(anti_delta0, 1).
+baryon_number(anti_delta0, -1).
 l_e(anti_delta0, 0).
 l_mu(anti_delta0, 0).
 l_tau(anti_delta0, 0).
@@ -483,7 +483,7 @@ lifetime(delta_minus, 6.0E-24).
 fermion(delta_minus).
 
 mass(anti_delta_minus, 1234).
-baryon_number(anti_delta_minus, 1).
+baryon_number(anti_delta_minus, -1).
 l_e(anti_delta_minus, 0).
 l_mu(anti_delta_minus, 0).
 l_tau(anti_delta_minus, 0).
@@ -505,7 +505,7 @@ lifetime(xi0, 2.9E-10).
 fermion(xi0).
 
 mass(anti_xi0, 1315).
-baryon_number(anti_xi0, 1).
+baryon_number(anti_xi0, -1).
 l_e(anti_xi0, 0).
 l_mu(anti_xi0, 0).
 l_tau(anti_xi0, 0).
@@ -527,7 +527,7 @@ lifetime(xi_minus, 1.64E-10).
 fermion(xi_minus).
 
 mass(anti_xi_minus, 1321).
-baryon_number(anti_xi_minus, 1).
+baryon_number(anti_xi_minus, -1).
 l_e(anti_xi_minus, 0).
 l_mu(anti_xi_minus, 0).
 l_tau(anti_xi_minus, 0).
@@ -549,7 +549,7 @@ lifetime(omega, 0.82E-10).
 fermion(omega).
 
 mass(anti_omega, 1672).
-baryon_number(anti_omega, 1).
+baryon_number(anti_omega, -1).
 l_e(anti_omega, 0).
 l_mu(anti_omega, 0).
 l_tau(anti_omega, 0).
