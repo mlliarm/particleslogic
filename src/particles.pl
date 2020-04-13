@@ -30,7 +30,7 @@ fermion(electron).
 
 mass(positron, 0.511).
 baryon_number(positron, 1).
-l_e(positron, 1).
+l_e(positron, -1).
 l_mu(positron, 0).
 l_tau(positron, 0).
 strangeness(positron, 0).
@@ -52,7 +52,7 @@ fermion(electron_neutrino).
 
 mass(anti_electron_neutrino, 2.8E-6).
 baryon_number(anti_electron_neutrino, 0).
-l_e(anti_electron_neutrino, 1).
+l_e(anti_electron_neutrino, -1).
 l_mu(anti_electron_neutrino, 0).
 l_tau(anti_electron_neutrino, 0).
 strangeness(anti_electron_neutrino, 0).
@@ -75,7 +75,7 @@ fermion(muon).
 mass(anti_muon, 105.7).
 baryon_number(anti_muon, 0).
 l_e(anti_muon, 0).
-l_mu(anti_muon, 1).
+l_mu(anti_muon, -1).
 l_tau(anti_muon, 0).
 strangeness(anti_muon, 0).
 charge(anti_muon, 1).
@@ -97,7 +97,7 @@ fermion(muon_neutrino).
 mass(anti_muon_neutrino, 3.5E-6).
 baryon_number(anti_muon_neutrino, 0).
 l_e(anti_muon_neutrino, 0).
-l_mu(anti_muon_neutrino, 1).
+l_mu(anti_muon_neutrino, -1).
 l_tau(anti_muon_neutrino, 0).
 strangeness(anti_muon_neutrino, 0).
 charge(anti_muon_neutrino, 0).
@@ -120,7 +120,7 @@ mass(anti_tau, 1784).
 baryon_number(anti_tau, 0).
 l_e(anti_tau, 0).
 l_mu(anti_tau, 0).
-l_tau(anti_tau, 1).
+l_tau(anti_tau, -1).
 strangeness(anti_tau, 0).
 charge(anti_tau, 1).
 spin(anti_tau, 1/2).
@@ -142,7 +142,7 @@ mass(anti_tau_neutrino, 8.4E-6).
 baryon_number(anti_tau_neutrino, 0).
 l_e(anti_tau_neutrino, 0).
 l_mu(anti_tau_neutrino, 0).
-l_tau(anti_tau_neutrino, 1).
+l_tau(anti_tau_neutrino, -1).
 strangeness(anti_tau_neutrino, 0).
 charge(anti_tau_neutrino, 0).
 spin(anti_tau_neutrino, 1/2).
