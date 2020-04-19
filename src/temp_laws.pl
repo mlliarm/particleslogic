@@ -52,3 +52,15 @@ cons_of_charge4(In,Out1,Out2,Out3) :-
     charge(Out3, C_out3),
     C_out is C_out1 + C_out2 + C_out3,
     C_in == C_out.
+
+%Working
+total_charge_of_particles([], 0).
+total_charge_of_particles([P_head|P_tail], Total) :-
+    charge(P_head, C_head),
+    total_charge_of_particles(P_tail, C_tail),
+    Total is C_head + C_tail.
+
+cons_of_charge5(In, Out) :-
+    total_charge_of_particles(In, Total_in),
+    total_charge_of_particles(Out, Total_out),
+    Total_in == Total_out.
