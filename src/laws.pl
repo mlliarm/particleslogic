@@ -58,7 +58,16 @@ cons_of_muon_leptonic_number(In, Out) :-
     Lmu_in == Lmu_out.
 
 % 5) Conservation of leptonic number l_tau
+total_tau_leptonic_number([], 0).
+total_tau_leptonic_number([P_head|P_tail], Total_ltau) :-
+    l_tau(P_head, Ltau_head),
+    total_tau_leptonic_number(P_tail, Ltau_tail),
+    Total_ltau is Ltau_head + Ltau_tail.
 
+cons_of_tau_leptonic_number(In, Out) :-
+    total_tau_leptonic_number(In, Ltau_in),
+    total_tau_leptonic_number(Out, Ltau_out),
+    Ltau_in == Ltau_out.
 
 % 6) Conservation of baryonic number B
 
