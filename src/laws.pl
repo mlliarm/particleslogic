@@ -7,35 +7,43 @@
 % Conservation of strangeness
 % Conservation of spin
 
-% Some useful rules
-last([X], X).
-last([_|T], X) :- last(T, X).
-
 % 1) Conservation of energy
 
-
 % 2) Conservation of charge
-% The Input_particles is a list with the input particles, 
+% The In is a list with the input particles, 
 % example: [proton, neutron]
 %
-% The Output_particles is a list as well with the output particles,
+% The Out is a list with the output particles,
 % example: [proton,proton,neutron,anti_proton].
-%
-% We want to create a rule that checks the followings:
-% if the sum of the charges of the input particles equals 
-% the sum of the charges of the output particles.
-%
-% Sketch of implementation:
-% a) Get the first/last element from the Input_particles list
-% b) Get the first/last element from the Output_particles list
-% c) Calculate sum of charges of input particles recursively
-% d) Calculate sum of charges of output particles recursively
-% e) Check if those two values are equal
-% f) Recurse the charge_is_conserved relation so that you get all the particles
-% from each list.
+total_charge([], 0).
+total_charge([P_head|P_tail], Total_charge) :-
+     charge(P_head, C_head),
+     total_charge(P_tail, C_tail),
+     Total_charge is C_head + C_tail.
+
+cons_of_charge(In, Out) :-
+     total_charge(In, Charge_in),
+     total_charge(Out, Charge_out),
+     Charge_in == Charge_out.
 
 % 3) Conservation of leptonic number l_e
+%
+% Example of valid reaction:
+%
+% neutron --> proton + electron + anti_electron_neutrino
+%
+% In = [neutron]
+% Out = [proton, electron + anti_electron_neutrino]
+total_electron_leptonic_number([], 0).
+total_electron_leptonic_number([P_head|P_tail], Total_le) :-
+    l_e(P_head, Le_head),
+    total_electron_leptonic_number(P_tail, Le_tail),
+    Total_le is Le_head + Le_tail.
 
+cons_of_electron_leptonic_number(In, Out) :-
+    total_electron_leptonic_number(In, Le_in),
+    total_electron_leptonic_number(Out, Le_out),
+    Le_in == Le_out.
 
 % 4) Conservation of leptonic number l_mu
 
@@ -47,7 +55,6 @@ last([_|T], X) :- last(T, X).
 
 
 % 7) Conservation of strangeness S
-
 
 
 % 8) Conservation of spin
