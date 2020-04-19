@@ -94,3 +94,14 @@ cons_of_strangeness(In, Out) :-
     S_in == S_out.
 
 % 8) Conservation of spin
+%
+
+% 9) Is the interaction possible?
+%
+is_the_interaction_possible(In, Out) :-
+    cons_of_charge(In, Out),
+    cons_of_electron_leptonic_number(In, Out),
+    cons_of_muon_leptonic_number(In, Out),
+    cons_of_tau_leptonic_number(In, Out),
+    cons_of_baryon_number(In, Out),
+    cons_of_strangeness(In, Out).
