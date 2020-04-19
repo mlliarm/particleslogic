@@ -69,8 +69,17 @@ cons_of_tau_leptonic_number(In, Out) :-
     total_tau_leptonic_number(Out, Ltau_out),
     Ltau_in == Ltau_out.
 
-% 6) Conservation of baryonic number B
+% 6) Conservation of baryon number B
+total_baryonic_number([], 0).
+total_baryonic_number([P_head|P_tail], Total_B) :-
+    baryon_number(P_head, B_head),
+    total_baryonic_number(P_tail, B_tail),
+    Total_B is B_head + B_tail.
 
+cons_of_baryon_number(In, Out) :-
+    total_baryonic_number(In, B_in),
+    total_baryonic_number(Out, B_out),
+    B_in == B_out.
 
 % 7) Conservation of strangeness S
 
