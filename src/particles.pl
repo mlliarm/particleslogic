@@ -18,7 +18,7 @@
 
 %LEPTONS
 mass(electron, 0.511).
-baryon_number(electron, 1).
+baryon_number(electron, 0).
 l_e(electron, 1).
 l_mu(electron, 0).
 l_tau(electron, 0).
@@ -29,7 +29,7 @@ lifetime(electron, 'Stable').
 fermion(electron).
 
 mass(positron, 0.511).
-baryon_number(positron, 1).
+baryon_number(positron, 0).
 l_e(positron, -1).
 l_mu(positron, 0).
 l_tau(positron, 0).
