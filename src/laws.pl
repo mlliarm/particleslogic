@@ -82,6 +82,15 @@ cons_of_baryon_number(In, Out) :-
     B_in == B_out.
 
 % 7) Conservation of strangeness S
+total_strangeness([], 0).
+total_strangeness([P_head|P_tail], Total_S) :-
+    strangeness(P_head, S_head),
+    total_strangeness(P_tail, S_tail),
+    Total_S is S_head + S_tail.
 
+cons_of_strangeness(In, Out) :-
+    total_strangeness(In, S_in),
+    total_strangeness(Out, S_out),
+    S_in == S_out.
 
 % 8) Conservation of spin
