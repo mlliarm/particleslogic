@@ -160,7 +160,7 @@ strangeness(pion, 0).
 charge(pion, 1).
 spin(pion, 0).
 lifetime(pion, 2.6E-8).
-fermion(pion).
+boson(pion).
 
 mass(anti_pion, 139.6).
 baryon_number(anti_pion, 0).
@@ -171,7 +171,7 @@ strangeness(anti_pion, 0).
 charge(anti_pion, -1).
 spin(anti_pion, 0).
 lifetime(anti_pion, 2.6E-8).
-fermion(anti_pion).
+boson(anti_pion).
 
 mass(pion0, 135.0).
 baryon_number(pion0, 0).
@@ -182,7 +182,7 @@ strangeness(pion0, 0).
 charge(pion0, 0).
 spin(pion0, 0).
 lifetime(pion0, 0.83E-16).
-fermion(pion0).
+boson(pion0).
 
 mass(kaon, 493.7).
 baryon_number(kaon, 0).
@@ -193,7 +193,7 @@ strangeness(kaon, 1).
 charge(kaon, 1).
 spin(kaon, 0).
 lifetime(kaon, 1.24E-8).
-fermion(kaon).
+boson(kaon).
 
 mass(anti_kaon, 493.7).
 baryon_number(anti_kaon, 0).
@@ -204,7 +204,7 @@ strangeness(anti_kaon, 1).
 charge(anti_kaon, -1).
 spin(anti_kaon, 0).
 lifetime(anti_kaon, 1.24E-8).
-fermion(anti_kaon).
+boson(anti_kaon).
 
 mass(kaon_s0, 497.7).
 baryon_number(kaon_s0, 0).
@@ -215,7 +215,7 @@ strangeness(kaon_s0, 1).
 charge(kaon_s0, 0).
 spin(kaon_s0, 0).
 lifetime(kaon_s0, 0.89E-10).
-fermion(kaon_s0).
+boson(kaon_s0).
 
 mass(anti_kaon_s0, 497.7).
 baryon_number(anti_kaon_s0, 0).
@@ -226,7 +226,7 @@ strangeness(anti_kaon0, 1).
 charge(anti_kaon0, 0).
 spin(anti_kaon0, 0).
 lifetime(anti_kaon0, 0.89E-10).
-fermion(anti_kaon_s0).
+boson(anti_kaon_s0).
 
 mass(kaon_l0, 497.7).
 baryon_number(kaon_l0, 0).
@@ -237,7 +237,7 @@ strangeness(kaon_l0, 1).
 charge(kaon_l0, 0).
 spin(kaon_l0, 0).
 lifetime(kaon_l0, 5.2E-8).
-fermion(kaon_l0).
+boson(kaon_l0).
 
 mass(anti_kaon_l0, 497.7).
 baryon_number(anti_kaon_l0, 0).
@@ -248,7 +248,7 @@ strangeness(anti_kaon_l0, 1).
 charge(anti_kaon_l0, 0).
 spin(anti_kaon_l0, 0).
 lifetime(anti_kaon_l0, 5.2E-8).
-fermion(anti_kaon_l0).
+boson(anti_kaon_l0).
 
 mass(eta, 548.8).
 baryon_number(eta, 0).
@@ -259,7 +259,7 @@ strangeness(eta, 0).
 charge(eta, 0).
 spin(eta, 0).
 lifetime(eta, 1.0E-18).
-fermion(eta).
+boson(eta).
 
 mass(eta1, 958).
 baryon_number(eta1, 0).
@@ -270,7 +270,7 @@ strangeness(eta1, 0).
 charge(eta1, 0).
 spin(eta1, 0).
 lifetime(eta1, 2.2E-21).
-fermion(eta1).
+boson(eta1).
 
 %BARYONS
 mass(proton, 938.3).
@@ -764,13 +764,10 @@ spin(w_minus_boson, 1).
 lifetime(w_minus_boson, 3.0E-25).
 boson(w_minus_boson).
 
-%OTHER
+%SCALAR_BOSON
 mass(higgs, 125180).
 charge(higgs, 0).
 colour_charge(higgs, 0).
 spin(higgs, 0).
 lifetime(higgs, 1.56E-22).
 boson(higgs).
-
-
-
