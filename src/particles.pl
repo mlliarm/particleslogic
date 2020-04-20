@@ -295,6 +295,7 @@ strangeness(proton, 0).
 charge(proton, 1).
 spin(proton, 1/2).
 lifetime(proton, 'Stable').
+quark_content(proton, [up, up, down]).
 fermion(proton).
 
 mass(anti_proton, 938.3).
@@ -306,6 +307,7 @@ strangeness(anti_proton, 0).
 charge(anti_proton, -1).
 spin(anti_proton, 1/2).
 lifetime(anti_proton, 'Stable').
+quark_content(anti_proton, [anti_up, anti_up, anti_down]).
 fermion(anti_proton).
 
 mass(neutron, 939.6).
@@ -317,6 +319,7 @@ strangeness(neutron, 0).
 charge(neutron, 0).
 spin(neutron, 1/2).
 lifetime(neutron, 624).
+quark_content(neutron, [up, down, down]).
 fermion(neutron).
 
 mass(anti_neutron, 939.6).
@@ -328,6 +331,7 @@ strangeness(anti_neutron, 0).
 charge(anti_neutron, 0).
 spin(anti_neutron, 1/2).
 lifetime(anti_neutron, 624).
+quark_content(anti_neutron, [anti_up, anti_down, anti_down]).
 fermion(anti_neutron).
 
 mass(lambda, 1115.6).
@@ -339,6 +343,7 @@ strangeness(lambda, -1).
 charge(lambda, 0).
 spin(lambda, 1/2).
 lifetime(lambda, 2.6E-10).
+quark_content(lambda, [up, down, strange]).
 fermion(lambda).
 
 mass(anti_lambda, 1115.6).
@@ -361,6 +366,7 @@ strangeness(sigma, -1).
 charge(sigma, 1).
 spin(sigma, 1/2).
 lifetime(sigma, 0.8E-10).
+quark_content(sigma, [up, up, strange]).
 fermion(sigma).
 
 mass(anti_sigma, 1189.4).
@@ -383,6 +389,7 @@ strangeness(sigma0, -1).
 charge(sigma0, 0).
 spin(anti_sigma, 1/2).
 lifetime(sigma0, 6.0E-20).
+quark_content(sigma0, [up, down, strange]).
 fermion(sigma0).
 
 mass(anti_sigma0, 1192.5).
@@ -405,6 +412,7 @@ strangeness(sigma_minus, -1).
 charge(sigma_minus, -1).
 spin(sigma_minus, 1/2).
 lifetime(sigma_minus, 1.5E-10).
+quark_content(sigma_minus, [down, down, strange]).
 fermion(sigma_minus).
 
 mass(anti_sigma_minus, 1197.3).
@@ -515,6 +523,7 @@ strangeness(xi0, -2).
 charge(xi0, 0).
 spin(xi0, 1/2).
 lifetime(xi0, 2.9E-10).
+quark_content(xi0, [up, strange, strange]).
 fermion(xi0).
 
 mass(anti_xi0, 1315).
@@ -537,6 +546,7 @@ strangeness(xi_minus, -2).
 charge(xi_minus, -1).
 spin(xi_minus, 1/2).
 lifetime(xi_minus, 1.64E-10).
+quark_content(xi_minus, [down, strange, strange]).
 fermion(xi_minus).
 
 mass(anti_xi_minus, 1321).
@@ -559,6 +569,7 @@ strangeness(omega, -3).
 charge(omega, -1).
 spin(omega, 1/2).
 lifetime(omega, 0.82E-10).
+quark_content(omega, [strange, strange, strange]).
 fermion(omega).
 
 mass(anti_omega, 1672).
