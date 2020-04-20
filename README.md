@@ -176,7 +176,7 @@ Particle name (symbol)
 * w_plus_boson (W+)
 * w_minus_boson (W-)
 
-### Other
+### Scalar Boson
 * higgs (H^0)
 
 # Bibliography
