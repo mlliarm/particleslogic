@@ -15,7 +15,7 @@
 :- discontiguous topness/2.
 :- discontiguous colour_charge/2.
 :- discontiguous boson/1.
-:- discontiguous quark_content/3.
+:- discontiguous quark_content/2.
 
 %LEPTONS
 mass(electron, 0.511).
