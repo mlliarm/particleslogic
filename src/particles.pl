@@ -15,6 +15,7 @@
 :- discontiguous topness/2.
 :- discontiguous colour_charge/2.
 :- discontiguous boson/1.
+:- discontiguous quark_content/3.
 
 %LEPTONS
 mass(electron, 0.511).
@@ -160,6 +161,7 @@ strangeness(pion, 0).
 charge(pion, 1).
 spin(pion, 0).
 lifetime(pion, 2.6E-8).
+quark_content(pion, [up, anti_down]).
 boson(pion).
 
 mass(anti_pion, 139.6).
@@ -171,6 +173,7 @@ strangeness(anti_pion, 0).
 charge(anti_pion, -1).
 spin(anti_pion, 0).
 lifetime(anti_pion, 2.6E-8).
+quark_content(anti_pion, [anti_up, down]).
 boson(anti_pion).
 
 mass(pion0, 135.0).
@@ -182,6 +185,8 @@ strangeness(pion0, 0).
 charge(pion0, 0).
 spin(pion0, 0).
 lifetime(pion0, 0.83E-16).
+quark_content(pion0, [up, anti_up]).
+quark_content(pion0, [down, anti_down]).
 boson(pion0).
 
 mass(kaon, 493.7).
