@@ -270,6 +270,7 @@ strangeness(eta, 0).
 charge(eta, 0).
 spin(eta, 0).
 lifetime(eta, 1.0E-18).
+quark_content(eta, [[up, anti_up],[down, anti_down],-2*[strange, anti_strange]]/sqrt(6)).
 boson(eta).
 
 mass(eta1, 958).
@@ -281,6 +282,7 @@ strangeness(eta1, 0).
 charge(eta1, 0).
 spin(eta1, 0).
 lifetime(eta1, 2.2E-21).
+quark_content(eta1, [[up, anti_up],[down, anti_down],[strange, anti_strange]]/sqrt(3)).
 boson(eta1).
 
 %BARYONS
