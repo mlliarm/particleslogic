@@ -198,6 +198,7 @@ strangeness(kaon, 1).
 charge(kaon, 1).
 spin(kaon, 0).
 lifetime(kaon, 1.24E-8).
+quark_content(kaon, [up, anti_strange]).
 boson(kaon).
 
 mass(anti_kaon, 493.7).
@@ -209,6 +210,7 @@ strangeness(anti_kaon, 1).
 charge(anti_kaon, -1).
 spin(anti_kaon, 0).
 lifetime(anti_kaon, 1.24E-8).
+quark_content(anti_kaon, [strange, anti_up]).
 boson(anti_kaon).
 
 mass(kaon_s0, 497.7).
@@ -220,6 +222,7 @@ strangeness(kaon_s0, 1).
 charge(kaon_s0, 0).
 spin(kaon_s0, 0).
 lifetime(kaon_s0, 0.89E-10).
+quark_content(kaon_s0, [[down, anti_strange],-[strange, anti_down]]/sqrt(2)).
 boson(kaon_s0).
 
 mass(anti_kaon_s0, 497.7).
@@ -231,6 +234,7 @@ strangeness(anti_kaon0, 1).
 charge(anti_kaon0, 0).
 spin(anti_kaon0, 0).
 lifetime(anti_kaon0, 0.89E-10).
+quark_content(anti_kaon_s0, [[down, anti_strange],-[strange, anti_down]]/sqrt(2)).
 boson(anti_kaon_s0).
 
 mass(kaon_l0, 497.7).
@@ -242,6 +246,7 @@ strangeness(kaon_l0, 1).
 charge(kaon_l0, 0).
 spin(kaon_l0, 0).
 lifetime(kaon_l0, 5.2E-8).
+quark_content(kaon_l0, [[down, anti_strange],[strange, anti_down]]/sqrt(2)).
 boson(kaon_l0).
 
 mass(anti_kaon_l0, 497.7).
@@ -253,6 +258,7 @@ strangeness(anti_kaon_l0, 1).
 charge(anti_kaon_l0, 0).
 spin(anti_kaon_l0, 0).
 lifetime(anti_kaon_l0, 5.2E-8).
+quark_content(anti_kaon_l0, [[down, anti_strange],[strange, anti_down]]/sqrt(2)).
 boson(anti_kaon_l0).
 
 mass(eta, 548.8).
