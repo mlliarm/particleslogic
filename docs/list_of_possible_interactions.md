@@ -1,9 +1,9 @@
-# From Serway's examples
+# Possible interaction examples (Serway)
 * `electron + positron --> photon + photon`                         (*false*)
 * `proton + neutron --> proton + proton + neutron + anti_proton`    (true)
 * `pion0 + neutron --> kaon + sigma_minus`                          (true)
 
-# Principle decay modes from Table 15.2
+# Principle decay modes from Table 15.2 (Serway)
 
 * `muon --> electron + muon_neutrino + anti_electron_neutrino`      (true)
 * `tau --> muon + anti_muon_neutrino + tau_neutrino`                (true)
