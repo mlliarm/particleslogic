@@ -3,6 +3,16 @@
 * `proton + neutron --> proton + proton + neutron + anti_proton`    (true)
 * `pion0 + neutron --> kaon + sigma_minus`                          (true)
 
+# Possible interaction examples (Sakurai)
+* `proton + neutron --> proton + neutron`                           (true)
+* `anti_pion + proton --> pion0 + neutron`                          (true)
+* `proton + neutron --> lambda + neutron + kaon`                    (true)
+* `anti_kaon + proton --> sigma + anti_pion`                        (*false*)
+* `proton + anti_proton --> lambda + anti_lambda`                   (*false*, strangeness not conserved)
+* `photon + proton --> pion0 + proton`                              (*false*, due to photon)
+* `anti_pion + proton --> neutron + photon`                         (*false*, due to photon)
+* `photon + proton --> lambda + kaon`                               (*false*, due to photon)
+
 # Principle decay modes from Table 15.2 (Serway)
 
 * `muon --> electron + muon_neutrino + anti_electron_neutrino`      (true)
@@ -23,4 +33,3 @@
 * `eta --> pion0 + pion0 + pion0`                                   (true)
 * `eta1 --> eta + pion + anti_pion`                                 (true)
 * `neutron --> proton + electron + anti_electron_neutrino`          (true)
-*
