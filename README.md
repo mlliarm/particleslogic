@@ -185,6 +185,8 @@ Particle name (symbol)
 * [PROLOG Facts, Rules and Queries](http://www.cs.trincoll.edu/~ram/cpsc352/notes/prolog/factsrules.html)
 * Logical programming and Prolog, greek notes [(rarred pdfs)](http://www.math.upatras.gr/~ragos/main_files/LP.rar), O. Raggos, University of Patras, 2013
 * PROLOG: A Relational Language and Its Applications, John Malpas, Prentice-Hall, Year: 1987, ISBN: 978-0137308057, 0137308051
+* Introduction to Elementary Particles, David Griffiths, Willey-VCH, Year:2008, ISBN:978-3527406012, 9783527406012
+* Invariance Principles and Elementary Particles, Jun John Sakurai, Princeton University Press, Year: 1964
 
 # References
 * [Wikipedia: Particle Decay](https://en.wikipedia.org/wiki/Particle_decay)
