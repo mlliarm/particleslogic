@@ -209,6 +209,7 @@ Particle name (symbol)
 * [HyperPhysics: Particle Interactions and Conservation Laws](http://hyperphysics.phy-astr.gsu.edu/hbase/Particles/parint.html)
 * [Physics LibreTexts: Particle Conservation Laws](https://phys.libretexts.org/Bookshelves/University_Physics/Book%3A_University_Physics_(OpenStax)/Map%3A_University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/11%3A_Particle_Physics_and_Cosmology/11.03%3A_Particle_Conservation_Laws)
 * [Particle Data Group](http://pdg.lbl.gov/index.html)
+* [Physics.stackexchange: Adding three electron spins](https://physics.stackexchange.com/questions/29443/adding-3-electron-spins)
 * [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 # Contributing
