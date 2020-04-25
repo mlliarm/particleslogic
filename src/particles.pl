@@ -10,7 +10,6 @@
 :- discontiguous lifetime/2.
 :- discontiguous fermion/1.
 :- discontiguous charm/2.
-:- discontiguous strangeness/2.
 :- discontiguous bottomness/2.
 :- discontiguous topness/2.
 :- discontiguous colour_charge/2.
