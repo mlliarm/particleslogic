@@ -1,11 +1,11 @@
 % Rules that correspond to conservation laws of Physics.
 %
-% Conservation of energy
-% Conservation of charge
-% Conservation of leptonic numbers 
-% Conservation of baryonic number
-% Conservation of strangeness
-% Conservation of spin
+% 1) Conservation of mass/energy
+% 2) Conservation of charge
+% 3) Conservation of leptonic numbers 
+% 4) Conservation of baryonic number
+% 5) Conservation of strangeness
+% 6) Conservation of spin
 
 % 1) Conservation of energy (mass)
 %
@@ -108,65 +108,6 @@ cons_of_strangeness(In, Out) :-
 % 8) Conservation of spin
 %
 % First we create some helping predicates to calculate the spin for interactions
-/**
-minimum_spin([], 0).
-minimum_spin([P_head|P_tail], Min_spin) :-
-    spin(P_head, Spin_head),
-    minimum_spin(P_tail, Spin_tail),
-    X is Spin_head - Spin_tail,
-    Min_spin is rationalize(abs(X)).
-
-maximum_spin([], 0).
-maximum_spin([P_head|P_tail], Max_spin) :-
-    spin(P_head, Spin_head),
-    maximum_spin(P_tail, Spin_tail),
-    Max_spin is rationalize(Spin_head + Spin_tail).
-
-total_output_spin(Out, Out_spin) :- 
-    maximum_spin(Out, Out_spin).
-
-spin_for_interactions(In, Out) :-
-    minimum_spin(In, Min_spin),
-    maximum_spin(In, Max_spin),
-    total_output_spin(Out, Out_spin),
-    Out_spin >= Min_spin,
-    Out_spin =< Max_spin.
-
-%Now we calculate the spin for decays
-spin_for_decays([P_in|P_out]) :-
-    spin(P_in, Spin_in),
-    Spin_in2 is rationalize(Spin_in),
-    rational(Spin_in2),
-    total_output_spin(P_out, Spin_out),
-    rational(Spin_out).
-
-spin_for_decays([P_in|P_out]) :-
-    spin(P_in, Spin_in),
-    integer(Spin_in),
-    total_output_spin(P_out, Spin_out),
-    integer(Spin_out).
-
-%A helper function because the way the spin for decays predicates take the input
-%variables is different.
-merge_list([], L, L).
-merge_list([H|T], L, [H|M]) :-
-    merge_list(T, L, M).
-
-%All together now
-%
-%If we have only one input particle we use the spin_for_decays
-%
-%If we have more than one input particles we use the spin_for_interactions.
-cons_of_spin(In, Out):-
-    (
-        length(In, Len_in),
-        Len_in =:= 1 ->
-        merge_list(In, Out, All_particles),
-        spin_for_decays(All_particles),!
-    ;   spin_for_interactions(In, Out)
-    ).
-**/
-
 total_spin([], 0).
 total_spin([P_head|P_tail], Total_spin) :-
     spin(P_head, Spin_head),
