@@ -756,6 +756,7 @@ mass(photon, 0).
 charge(photon, 0).
 colour_charge(photon, 0).
 spin(photon, 1).
+spin(photon, -1).
 lifetime(photon, 'Stable').
 l_e(photon, 0).
 l_mu(photon, 0).
