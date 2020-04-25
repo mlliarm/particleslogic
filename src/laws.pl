@@ -7,7 +7,19 @@
 % Conservation of strangeness
 % Conservation of spin
 
-% 1) Conservation of energy
+% 1) Conservation of energy (mass)
+%
+% Total mass (energy) of input particles should be always greater than the total mass (energy) of the output particles
+total_mass([], 0).
+total_mass([P_head|P_tail], Total_mass) :-
+    mass(P_head, Mass_head),
+    total_mass(P_tail, Mass_tail),
+    Total_mass is Mass_head + Mass_tail.
+
+cons_of_mass(In, Out) :-
+    total_mass(In, Mass_in),
+    total_mass(Out, Mass_out),
+    Mass_in > Mass_out.
 
 % 2) Conservation of charge
 % The In is a list with the input particles, 
@@ -103,5 +115,4 @@ is_the_interaction_possible(In, Out) :-
     cons_of_electron_leptonic_number(In, Out),
     cons_of_muon_leptonic_number(In, Out),
     cons_of_tau_leptonic_number(In, Out),
-    cons_of_baryon_number(In, Out),
-    cons_of_strangeness(In, Out).
+    cons_of_baryon_number(In, Out).
