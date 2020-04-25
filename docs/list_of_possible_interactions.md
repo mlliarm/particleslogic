@@ -13,7 +13,7 @@
 * `anti_pion + proton --> neutron + photon`                         (true, 1st level w/o spin)
 * `photon + proton --> lambda + kaon`                               (**false**, due to mass)
 
-# Principle decay modes from Table 15.2 (Serway)
+# Principle decay modes (Serway, Table 15.2)
 
 * `muon --> electron + muon_neutrino + anti_electron_neutrino`      (true, 1st level w/o spin)
 * `tau --> muon + anti_muon_neutrino + tau_neutrino`                (true, 1st level w/o spin)
