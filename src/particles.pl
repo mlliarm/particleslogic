@@ -431,7 +431,7 @@ l_e(delta, 0).
 l_mu(delta, 0).
 l_tau(delta, 0).
 strangeness(delta, 0).
-charge(delta, 1).
+charge(delta, 2).
 spin(delta, 1/2).
 lifetime(delta, 6.0E-24).
 fermion(delta).
@@ -442,7 +442,7 @@ l_e(anti_delta, 0).
 l_mu(anti_delta, 0).
 l_tau(anti_delta, 0).
 strangeness(anti_delta, 0).
-charge(anti_delta, -1).
+charge(anti_delta, -2).
 spin(anti_delta, 1/2).
 lifetime(anti_delta, 6.0E-24).
 fermion(anti_delta).
