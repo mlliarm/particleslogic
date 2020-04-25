@@ -110,7 +110,8 @@ cons_of_strangeness(In, Out) :-
 
 % 9) Is the interaction possible?
 %
-is_the_interaction_possible(In, Out) :-
+possible_interaction_first_level(In, Out) :-
+    cons_of_mass(In, Out),
     cons_of_charge(In, Out),
     cons_of_electron_leptonic_number(In, Out),
     cons_of_muon_leptonic_number(In, Out),
