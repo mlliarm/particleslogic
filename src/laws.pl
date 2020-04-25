@@ -125,7 +125,7 @@ total_output_spin(Out, Out_spin) :-
     maximum_spin(Out, Out_spin).
 
 spin_for_interactions(In, Out) :-
-    minimum_spin3(In, Min_spin),
+    minimum_spin(In, Min_spin),
     maximum_spin(In, Max_spin),
     total_output_spin(Out, Out_spin),
     Out_spin >= Min_spin,
