@@ -108,6 +108,7 @@ cons_of_strangeness(In, Out) :-
 % 8) Conservation of spin
 %
 % First we create some helping predicates to calculate the spin for interactions
+/**
 minimum_spin([], 0).
 minimum_spin([P_head|P_tail], Min_spin) :-
     spin(P_head, Spin_head),
@@ -164,6 +165,25 @@ cons_of_spin(In, Out):-
         spin_for_decays(All_particles),!
     ;   spin_for_interactions(In, Out)
     ).
+**/
+
+total_spin([], 0).
+total_spin([P_head|P_tail], Total_spin) :-
+    spin(P_head, Spin_head),
+    total_spin(P_tail, Spin_tail),
+    Total_spin is rationalize(Spin_head + Spin_tail).
+
+cons_of_spin(In, Out) :-
+    total_spin(In, Spin_in),
+    total_spin(Out, Spin_out),
+    integer(Spin_in),
+    integer(Spin_out).
+
+cons_of_spin(In, Out) :-
+    total_spin(In, Spin_in),
+    total_spin(Out, Spin_out),
+    not(integer(Spin_in)),
+    not(integer(Spin_out)).
 
 % 9) Is the interaction possible?
 %
