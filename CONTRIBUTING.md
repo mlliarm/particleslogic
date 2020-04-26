@@ -8,9 +8,9 @@ Contributions are welcome and will be fully credited.
 
 ## ToDo list
 
-* The `laws.pl` must be completed with all the conservation laws (rules), at the first level without taking into consideration the quark structure of each particle.
+* <s>The `laws.pl` must be completed with all the conservation laws (rules), at the first level without taking into consideration the quark structure of each particle.</s>
 * The `laws.pl` must be completed with the conservation of strangeness, bottomness, charmness, topness, taking into consideration the quark content of each particle.
-* In the same script a meta_laws rule should be created which checks if any of the conservation laws is being broken, for the first level.
+* <s>In the same script a meta_laws rule should be created which checks if any of the conservation laws is being violated, for the first level.</s>
 * A meta_laws rule for the second level (quark level).
 * Create [unit tests](https://www.swi-prolog.org/pldoc/doc_for?object=section(%27packages/plunit.html%27)) by using well known reactions.
 * Finish the `list_of_possible_interactions.md`.
