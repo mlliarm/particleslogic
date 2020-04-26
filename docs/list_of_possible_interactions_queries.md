@@ -1,7 +1,7 @@
 # Possible Interaction examples (Serway)
 * `possible_interaction_first_level([electron, positron], [photon,photon]).`                         (true)
 * `possible_interaction_first_level([proton, neutron], [proton, proton, neutron, anti_proton]).`     (**false**)
-* `possible_interaction_first_level([proton, neutron], [proton,neutron]).`                           (**false**)
+* `possible_interaction_first_level([pion0, neutron], [kaon, sigma_minus]).`                           (**false**)
 
 # Possible Interaction examples (Sakurai)
 * `possible_interaction_first_level([proton, neutron], [proton,neutron]).`                           (**false**)
