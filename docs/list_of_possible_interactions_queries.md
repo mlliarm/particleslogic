@@ -35,7 +35,7 @@
 * `possible_interaction_first_level([lambda], [neutron, pion0]).`                                   (true)
 * `possible_interaction_first_level([sigma], [proton, pion0]).`                                     (true)
 * `possible_interaction_first_level([sigma], [neutron, pion]).`                                     (true)
-* `possible_interaction_first_level([sigma0], [lambda, photon]).`                                   (**false**)
+* `possible_interaction_first_level([sigma0], [lambda, photon]).`                                   (true)
 * `possible_interaction_first_level([sigma_minus], [neutron, anti_pion]).`                          (true)
 * `possible_interaction_first_level([delta], [proton, pion]).`                                      (true)
 * `possible_interaction_first_level([delta_plus], [proton, pion0]).`                                (true)
