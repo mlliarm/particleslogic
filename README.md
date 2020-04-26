@@ -121,6 +121,8 @@ true.
 
 Once you have loaded the `laws.pl` library you can check if a decay is possible:
 
+For example, let's check the `muon` decay: `muon --> electron + muon_neutrino + anti_electron_neutrino` if it is possible:
+
 ```
 ?- possible_interaction_first_level([muon], [electron, muon_neutrino, anti_electron_neutrino]).
 true.
