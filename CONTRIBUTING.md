@@ -2,7 +2,7 @@
 
 Contributions are welcome and will be fully credited.
 
-## Contributors
+## Contributors (Physics)
 * Spyros K.
 * Christos D.
 
