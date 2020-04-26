@@ -386,7 +386,7 @@ l_mu(sigma0, 0).
 l_tau(sigma0, 0).
 strangeness(sigma0, -1).
 charge(sigma0, 0).
-spin(anti_sigma, 1/2).
+spin(sigma0, 1/2).
 lifetime(sigma0, 6.0E-20).
 quark_content(sigma0, [up, down, strange]).
 fermion(sigma0).
