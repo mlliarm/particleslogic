@@ -6,7 +6,10 @@ A prolog application of basic interactions between elementary particles.
 The main idea behind this project is to create a system that will tell you when an interaction
 of the form  `A + B --> C + D + E + ...` or a decay of the form `A --> B + C + D + ...`, where A, B, C, D, E are elementary particles, is possible or not.
 
-For the time being, the library is at a very basic stage where you can only consult the knowledge base, and do basic simple (or filtered) queries.
+For the time being, you can consult the knowledge base, do basic simple (or filtered) queries, and check if an interaction or decay is possible at a higher level.
+When I say a higher level, I mean that I'm not taking into account the quarks, nor the quantum numbers such as strangeness, topness, botomness and charm.
+
+You can check [here](https://github.com/mlliarm/particleslogic/blob/master/docs/list_of_possible_interactions.md) the interactions and decays that pass or don't pass the tests with this library, and [here](https://github.com/mlliarm/particleslogic/blob/master/docs/list_of_possible_interactions_queries.md) the queries.
 
 For future ideas and goals check the [CONTRIBUTING](https://github.com/mlliarm/particleslogic/blob/master/CONTRIBUTING.md) page.
 
@@ -96,6 +99,31 @@ Mass = 95 ;
 Particle = anti_strange,
 Mass = 95 ;
 false.
+```
+
+## Checking if an interaction or decay is possible
+
+### Interactions
+
+First you'll have to load the `laws.pl` library:
+
+```
+?- consult('src/laws.pl').
+```
+Then, to check say the interaction `electron + positron --> photon + photon ` you type in the REPL:
+
+```
+?- possible_interaction_first_level([electron, positron], [photon,photon]).
+true.
+```
+
+### Decays
+
+Once you have loaded the `laws.pl` library you can check if a decay is possible:
+
+```
+?- possible_interaction_first_level([muon], [electron, muon_neutrino, anti_electron_neutrino]).
+true.
 ```
 
 ## Particles included
