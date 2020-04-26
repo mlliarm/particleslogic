@@ -36,7 +36,7 @@
 * `lambda --> neutron + pion0`                                      (true, 1st level)
 * `sigma --> proton + pion0`                                        (true, 1st level)
 * `sigma --> neutron + pion`                                        (true, 1st level)
-* `sigma0 --> lambda + photon`                                      (**false**)
+* `sigma0 --> lambda + photon`                                      (true, 1st level)
 * `sigma_minus --> neutron + anti_pion`                             (true, 1st level)
 * `delta --> proton + pion`                                         (true, 1st level)
 * `delta_plus --> proton + pion0`                                   (true, 1st level)
