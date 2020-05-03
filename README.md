@@ -133,7 +133,7 @@ true.
 Particle name (symbol)
 
 ### Leptons
-* electron (e-)
+* electron ($$e^{+}$$)
 * positron (e+)
 * electron_neutrino (ν_e)
 * anti_electron_neutrino (anti ν_e)
