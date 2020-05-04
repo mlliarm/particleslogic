@@ -158,7 +158,7 @@ Particle name (symbol)
 * kaon_l0 (![\large \Kappa^{0}_{L}](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5CKappa%5E%7B0%7D_%7BL%7D))
 * anti_kaon_l0 (![\large \bar{\Kappa}^{0}_{L}](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Cbar%7B%5CKappa%7D%5E%7B0%7D_%7BL%7D))
 * eta (![\large \eta](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Ceta))
-* eta1 ![\big(\large \eta^{'}\big)](https://render.githubusercontent.com/render/math?math=%5Cbig(%5Clarge%20%5Ceta%5E%7B'%7D%5Cbig))
+* eta1 (![\large \eta^{'}](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Ceta%5E%7B'%7D))
 
 #### Baryons
 * proton (p)
