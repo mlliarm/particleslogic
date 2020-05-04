@@ -243,6 +243,7 @@ Particle name (symbol)
 * [Particle Data Group](http://pdg.lbl.gov/index.html)
 * [Physics.stackexchange: Adding three electron spins](https://physics.stackexchange.com/questions/29443/adding-3-electron-spins)
 * [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [A hack for showing LaTeX formulas in GitHub markdown.md](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b)
 
 # Contributing
 Kindly do see [CONTRIBUTING](https://github.com/mlliarm/particleslogic/blob/master/CONTRIBUTING.md) and [CODE OF CONDUCT](https://github.com/mlliarm/particleslogic/blob/master/CODE_OF_CONDUCT.md) for more information.
