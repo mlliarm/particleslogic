@@ -133,7 +133,7 @@ true.
 Particle name (symbol)
 
 ### Leptons
-* electron (e-)
+* electron (![e^{-}](https://render.githubusercontent.com/render/math?math=e%5E%7B-%7D))
 * positron (e+)
 * electron_neutrino (ν_e)
 * anti_electron_neutrino (anti ν_e)
