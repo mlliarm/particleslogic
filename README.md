@@ -202,14 +202,14 @@ Particle name (symbol)
 * anti_top (![\large \bar{t}](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Cbar%7Bt%7D))
 
 ### Gauge Bosons
-* photon (γ)
-* gluon (g)
-* z0_boson (Z^0)
-* w_plus_boson (W+)
-* w_minus_boson (W-)
+* photon (![\large \gamma](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Cgamma))
+* gluon (![\large g](https://render.githubusercontent.com/render/math?math=%5Clarge%20g))
+* z0_boson (![\large \Zeta^{0}](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5CZeta%5E%7B0%7D))
+* w_plus_boson (![\large W^{+}](https://render.githubusercontent.com/render/math?math=%5Clarge%20W%5E%7B%2B%7D))
+* w_minus_boson (![\large W^{-}](https://render.githubusercontent.com/render/math?math=%5Clarge%20W%5E%7B-%7D))
 
 ### Scalar Boson
-* higgs (H^0)
+* higgs (![\large H^{0}](https://render.githubusercontent.com/render/math?math=%5Clarge%20H%5E%7B0%7D))
 
 # Bibliography
 * Ivan Bratko, Prolog programming for artificial intelligence, Addison Wesley, Year: 2001, ISBN: 9780201403756, 0201403757
