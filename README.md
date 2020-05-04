@@ -148,17 +148,17 @@ Particle name (symbol)
 
 ### Hadrons
 #### Mesons
-* pion (π+)
-* anti_pion (π-)
-* pion0 (π0)
-* kaon (Κ+)
-* anti_kaon (K-)
-* kaon_s0 (K_S^0)
-* anti_kaon_s0 (anti K_S^0)
-* kaon_l0 (K_L^0)
-* anti_kaon_l0 (anti K_L^0)
-* eta (η)
-* eta1 (η')
+* pion (![\large \pi^{+}](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Cpi%5E%7B%2B%7D))
+* anti_pion (![\large \pi^{-}](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Cpi%5E%7B-%7D))
+* pion0 (![\large \pi^{0}](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Cpi%5E%7B0%7D))
+* kaon (![\large \Kappa^{+}](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5CKappa%5E%7B%2B%7D))
+* anti_kaon (![\large \Kappa^{-}](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5CKappa%5E%7B-%7D))
+* kaon_s0 (![\large \Kappa^{0}_{S}](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5CKappa%5E%7B0%7D_%7BS%7D))
+* anti_kaon_s0 (![\large \bar{\Kappa}^{0}_{S}](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Cbar%7B%5CKappa%7D%5E%7B0%7D_%7BS%7D))
+* kaon_l0 (![\large \Kappa^{0}_{L}](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5CKappa%5E%7B0%7D_%7BL%7D))
+* anti_kaon_l0 (![\large \bar{\Kappa}^{0}_{L}](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Cbar%7B%5CKappa%7D%5E%7B0%7D_%7BL%7D))
+* eta (![\large \eta](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Ceta))
+* eta1 (![\large \eta'](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Ceta'))
 
 #### Baryons
 * proton (p)
