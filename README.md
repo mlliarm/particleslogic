@@ -143,6 +143,8 @@ Particle name (symbol)
 * anti_muon_neutrino (![\large \bar{\nu}_{\mu}](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Cbar%7B%5Cnu%7D_%7B%5Cmu%7D))
 * tau (![\large \tau^{-}](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Ctau%5E%7B-%7D))
 * anti_tau (![\large \tau^{+}](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Ctau%5E%7B%2B%7D))
+* tau_neutrino (![\large \nu_\tau](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Cnu_%5Ctau))
+* anti_tau_neutrino (![\large \bar{\nu}_\tau](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Cbar%7B%5Cnu%7D_%5Ctau))
 
 ### Hadrons
 #### Mesons
