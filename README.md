@@ -204,7 +204,7 @@ Particle name (symbol)
 ### Gauge Bosons
 * photon ($\large \gamma$)
 * gluon ($\large g$)
-* z0_boson ($\large \Zeta^{0}]$)
+* z0_boson ($\large \Zeta^{0}$)
 * w_plus_boson ($\large W^{+}$)
 * w_minus_boson ($\large W^{-}$)
 
