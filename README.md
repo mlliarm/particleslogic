@@ -133,13 +133,13 @@ true.
 Particle name (symbol)
 
 ### Leptons
-* electron $\large e^{-}$.
-* positron (![\large e^{+}](https://render.githubusercontent.com/render/math?math=%5Clarge%20e%5E%7B%2B%7D))
-* electron_neutrino (![\large \nu_e](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Cnu_e))
-* anti_electron_neutrino (![\large \bar{\nu}_e](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Cbar%7B%5Cnu%7D_e))
-* muon (![\large \mu^{-}](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Cmu%5E%7B-%7D))
-* anti_muon (![\large \mu^{+}](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Cmu%5E%7B%2B%7D))
-* muon_neutrino (![\large \nu_{\mu}](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Cnu_%7B%5Cmu%7D))
+* electron $\large (e^{-}$)
+* positron $\large (e^{+}$)
+* electron_neutrino ($\large \nu_e$)
+* anti_electron_neutrino ($\large \bar{\nu}_e$)
+* muon (\large \mu^{-})
+* anti_muon (\large \mu^{+})
+* muon_neutrino (\large \nu_{\mu})
 * anti_muon_neutrino (![\large \bar{\nu}_{\mu}](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Cbar%7B%5Cnu%7D_%7B%5Cmu%7D))
 * tau (![\large \tau^{-}](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Ctau%5E%7B-%7D))
 * anti_tau (![\large \tau^{+}](https://render.githubusercontent.com/render/math?math=%5Clarge%20%5Ctau%5E%7B%2B%7D))
