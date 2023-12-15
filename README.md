@@ -151,12 +151,12 @@ Particle name (symbol)
 * pion ($\large \pi^{+}$)
 * anti_pion ($\large \pi^{-}$)
 * pion0 ($\large \pi^{0}$)
-* kaon ($\large \Kappa^{+}$)
-* anti_kaon ($\large \Kappa^{-}$)
-* kaon_s0 ($\large \Kappa^{0}_{S}$)
-* anti_kaon_s0 ($\large \bar{\Kappa}^{0}_{S}$)
-* kaon_l0 ($\large \Kappa^{0}_{L}$)
-* anti_kaon_l0 ($\large \bar{\Kappa}^{0}_{L}$)
+* kaon ($\large \K^{+}$)
+* anti_kaon ($\large \K^{-}$)
+* kaon_s0 ($\large \K^{0}_{S}$)
+* anti_kaon_s0 ($\large \bar{\K}^{0}_{S}$)
+* kaon_l0 ($\large \K^{0}_{L}$)
+* anti_kaon_l0 ($\large \bar{\K}^{0}_{L}$)
 * eta ($\large \eta$)
 * eta1 ($\large \eta^{'}$)
 
@@ -204,12 +204,12 @@ Particle name (symbol)
 ### Gauge Bosons
 * photon ($\large \gamma$)
 * gluon ($\large g$)
-* z0_boson ($\large \Zeta^{0}$)
+* z0_boson ($\large \Z^{0}$)
 * w_plus_boson ($\large W^{+}$)
 * w_minus_boson ($\large W^{-}$)
 
 ### Scalar Boson
-* higgs (![\large H^{0}](https://render.githubusercontent.com/render/math?math=%5Clarge%20H%5E%7B0%7D))
+* higgs ($\large H^{0}$)
 
 # Bibliography
 * Ivan Bratko, Prolog programming for artificial intelligence, Addison Wesley, Year: 2001, ISBN: 9780201403756, 0201403757
